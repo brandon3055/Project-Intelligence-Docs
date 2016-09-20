@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<mod docRevision="0" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
+<mod docRevision="1" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
     <content alignment="CENTER" index="0" shadow="true" size="1" type="heading">§nDraconic Evolution</content>
     <entry branchId="draconicevolution:testEntry" category="wiki.cat.block" icon="name:draconicevolution:fusion_crafting_core,size:1,meta:0,nbt:{}" iconType="stack" name="Test Entry"/>
-</mod>
+    <entry branchId="draconicevolution:testEntry2" category="wiki.cat.block" icon="name:draconicevolution:fusion_crafting_core,size:1,meta:0,nbt:{}" iconType="stack" name="Test Entry 2"/>
+
+	</mod>
