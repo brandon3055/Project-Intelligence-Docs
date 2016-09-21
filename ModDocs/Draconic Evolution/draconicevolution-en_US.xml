@@ -1,7 +1,156 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <mod docRevision="1" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
-    <content alignment="CENTER" index="0" shadow="true" size="1" type="heading">§nDraconic Evolution</content>
-    <entry branchId="draconicevolution:testEntry" category="wiki.cat.block" icon="name:draconicevolution:fusion_crafting_core,size:1,meta:0,nbt:{}" iconType="stack" name="Test Entry"/>
-    <entry branchId="draconicevolution:testEntry2" category="wiki.cat.block" icon="name:draconicevolution:fusion_crafting_core,size:1,meta:0,nbt:{}" iconType="stack" name="Test Entry 2"/>
+    <content index="9" type="textArea">
+Althogh Draconic Evolution for 1.10.2 is now in a stable release state the update is still far from finished. So if you find that something which was avalible in 1.7 is nolonger avalible in 1.10 it probably has not been updated yet. I plan to update almost everything that was in 1.7 so dont be concerned if some of your favorite items/blocks dont exist yet.</content>
+    <content alignment="CENTER" index="8" shadow="true" size="1" type="heading">§nImportant!</content>
+    <content index="7" size="8" type="vSpacer"/>
+    <content alignment="LEFT" index="6" type="splitContainer" vAlignment="BOTTOM" width="10">
+        <content alignment="LEFT" index="0" splitSide="RIGHT" type="textArea">§1§a
+-Powerful tools and armor
 
-	</mod>
+-Teleportation
+
+-Time and weather control
+
+-Mob Farming
+
+-The most over powered energy storage of any mod currently in existance.
+
+-Extreme(ly Dangerous) power generation
+
+-Fancy Effects! (Because that's an important feature!)
+
+-One of the most powerful bosses in modded minecraft</content>
+    </content>
+    <content index="5" type="textArea">Draconic Evolution is a mod that focuses mainly on extreamely powerful end game tools, weapons an machines.
+
+While at the same time maintaining balance (Althogh this can be tricky) with equally expensive recipes and very difficult bosses which you need to go though in order to get these items.
+
+But this mod started more like an Open Blocks or Extra Utilities type mod so it also has a lot of seemingly random but useful blocs and items.
+
+Some of the key features of this mod are: </content>
+    <content index="4" size="8" type="vSpacer"/>
+    <content alignment="CENTER" index="3" shadow="true" size="0" type="heading">Now not quiet as OP!!!</content>
+    <content alignment="CENTER" index="2" shadow="false" size="0" type="heading">ABC...LMN§cDraconic Evolution§rQR...WXYZ</content>
+    <content index="1" size="8" type="vSpacer"/>
+    <content alignment="CENTER" index="0" shadow="true" size="1" type="heading">§nDraconic Evolution</content>
+    
+    
+
+	
+<entry branchId="draconicevolution:draconium" category="wiki.cat.item" icon="name:draconicevolution:draconium_ingot,size:1,meta:0,nbt:{}" iconType="stack" name="Draconium" sortingWeight="10">
+        <content index="6" type="recipe">name:draconicevolution:nugget,size:1,meta:0,nbt:{}</content>
+        <content index="5" type="recipe">name:draconicevolution:draconium_ingot,size:1,meta:0,nbt:{}</content>
+        <content index="4" size="8" type="vSpacer"/>
+        <content index="3" type="textArea">Draconium is the base material used to craft all tools and machines in Draconic Evolution.</content>
+        <content index="2" size="8" type="vSpacer"/>
+        <content index="0" size="4" type="vSpacer"/>
+        <content alignment="CENTER" index="1" shadow="true" size="2" type="heading">§nDraconium</content>
+    <entry branchId="draconicevolution:draconium/ore" category="wiki.cat.block" icon="name:draconicevolution:draconium_ore,size:1,meta:0,nbt:{}" iconType="stack" name="Draconium Ore" sortingWeight="10">
+            <content alignment="LEFT" index="7" type="splitContainer" vAlignment="MIDDLE" width="32">
+                <content index="0" renderSlot="true" scale="100" splitSide="LEFT" tooltip="true" type="stack">name:draconicevolution:draconium_ore,size:1,meta:2,nbt:{}</content>
+                <content alignment="LEFT" index="0" splitSide="RIGHT" type="textArea">End
+
+This is the most common valient of draconium ore found on the main island and all other islands in the End
+
+Drops:
+2-4 Draconum Dust (when harvested normally) 
+2-12 Draconum Dust (when harvested with fortune 3)
+</content>
+            </content>
+            <content index="6" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="5" type="splitContainer" vAlignment="MIDDLE" width="32">
+                <content index="0" renderSlot="true" scale="100" splitSide="LEFT" tooltip="true" type="stack">name:draconicevolution:draconium_ore,size:1,meta:1,nbt:{}</content>
+                <content alignment="LEFT" index="0" splitSide="RIGHT" type="textArea">Nether
+
+More common than the overworld varient but still fairly rare and dose not drop quiet as much dust when harvested
+Found in the nether.
+
+Drops:
+3-5 Draconum Dust (when harvested normally) 
+3-13 Draconum Dust (when harvested with fortune 3)
+</content>
+            </content>
+            <content index="4" size="8" type="vSpacer"/>
+            
+            
+            <content alignment="LEFT" index="3" type="splitContainer" vAlignment="MIDDLE" width="32">
+                
+                <content alignment="LEFT" index="0" splitSide="RIGHT" type="textArea">Overworld
+
+The overworld variety of Draconium ore can be found in (you guessed it) the overworld and other stone bassed dimentions.
+This is the rarest of the 3 types with an extreamely low generation rate but it drops the most draconium dust when harvested
+
+Drops:
+4-6 Draconium Dust (when harvested normally)
+4-14 Draconium Dust (when harvested with fortune 3)</content>
+            <content alignment="CENTER" index="0" renderSlot="true" scale="100" splitSide="LEFT" tooltip="true" type="stack">name:draconicevolution:draconium_ore,size:1,meta:0,nbt:{}</content>
+            </content>
+            <content index="2" size="8" type="vSpacer"/>
+            <content index="1" type="textArea">Draconium ore comes in 3 different types.</content>
+            <content index="0" size="8" type="vSpacer"/>
+        </entry>
+    <entry branchId="draconicevolution:draconium/dust" category="wiki.cat.item" icon="name:draconicevolution:draconium_dust,size:1,meta:0,nbt:{}" iconType="stack" name="Draconium Dust" sortingWeight="11">
+            <content index="1" type="textArea">Draconium Dust drops from draconium ore when harvested and 1 dust smelts into 1 draconium ingot</content>
+            <content index="0" size="8" type="vSpacer"/>
+        </entry>
+    <entry branchId="draconicevolution:draconium/block" category="wiki.cat.block" icon="name:draconicevolution:draconium_block,size:1,meta:0,nbt:{}" iconType="stack" name="Draconium Block" sortingWeight="12">
+            <content index="3" type="recipe">name:draconicevolution:draconium_block,size:1,meta:0,nbt:{}</content>
+            <content index="2" size="8" type="vSpacer"/>
+            
+            <content index="1" type="textArea">Draconium in its block form.
+
+This block is resistent to most mobs including the Wither and EnderDragon.
+
+Equivelent to 4 book shelves when used as an enchanting booster.</content>
+            <content index="0" size="8" type="vSpacer"/>
+            
+        </entry>
+    <entry branchId="draconicevolution:draconium/blockCharged" category="wiki.cat.block" icon="name:draconicevolution:draconium_block,size:1,meta:1,nbt:{}" iconType="stack" name="Charged Draconium Block" sortingWeight="13">
+            <content index="1" type="textArea">By placing a draconium block in a charging device such as an Energy Infuser and and supplying it with 100 million RF you can make a Charged Draconium Block. Currently in this version of Draconic Evolution this is not used for anything.
+
+Equivelent to 12 book shelves when used as an enchanting booster.</content>
+            <content index="0" size="8" type="vSpacer"/>
+        </entry>
+    </entry>
+
+<entry branchId="draconicevolution:cores" icon="name:draconicevolution:draconic_core,size:1,meta:0,nbt:{}" iconType="stack" name="Cores" sortingWeight="20">
+        <content index="0" type="textArea">
+Cores come in 4 tiers and are components in almost all Draconic Evolution crafting recipes.</content>
+        <entry branchId="draconicevolution:cores/draconic" category="wiki.cat.item" icon="name:draconicevolution:draconic_core,size:1,meta:0,nbt:{}" iconType="stack" name="Draconic Core">
+            <content index="3" type="recipe">name:draconicevolution:draconic_core,size:1,meta:0,nbt:{}</content>
+            <content index="2" size="8" type="vSpacer"/>
+            <content index="0" size="8" type="vSpacer"/>
+            <content index="1" type="textArea">The lowest tier core. Used in simple crafting recipes</content>
+        </entry>
+    <entry branchId="draconicevolution:cores/wyvern" category="wiki.cat.item" icon="name:draconicevolution:wyvern_core,size:1,meta:0,nbt:{}" iconType="stack" name="Wyvern Core" sortingWeight="1">
+            <content index="3" type="recipe">name:draconicevolution:wyvern_core,size:1,meta:0,nbt:{}</content>
+            <content index="2" size="8" type="vSpacer"/>
+            <content index="1" type="textArea">Tier 2 core.
+Used in more advanced recipes </content>
+            <content index="0" size="8" type="vSpacer"/>
+        </entry>
+    <entry branchId="draconicevolution:cores/awakened" category="wiki.cat.item" icon="name:draconicevolution:awakened_core,size:1,meta:0,nbt:{}" iconType="stack" name="Awakened Core" sortingWeight="2">
+            <content index="3" type="recipe">name:draconicevolution:awakened_core,size:1,meta:0,nbt:{}</content>
+            <content index="2" size="8" type="vSpacer"/>
+            <content index="1" type="textArea">Tier 3 core.
+Used in high tier crafting recipes such as those for draconic tools and weapons.</content>
+            <content index="0" size="8" type="vSpacer"/>
+        </entry>
+    <entry branchId="draconicevolution:cores/chaotic" category="wiki.cat.item" icon="name:draconicevolution:chaotic_core,size:1,meta:0,nbt:{}" iconType="stack" name="Chaotic Core" sortingWeight="3">
+            <content index="1" type="textArea">Tier 4 core.
+</content>
+            <content index="0" size="8" type="vSpacer"/>
+        </entry>
+    </entry>
+<entry branchId="draconicevolution:wyvernTools" iconType="off" name="Wyvern Tools" sortingWeight="50"/>
+<entry branchId="draconicevolution:draconicToold" iconType="off" name="Draconic Tools" sortingWeight="60"/>
+
+<entry branchId="draconicevolution:fusionCrafting" category="wiki.cat.block" icon="name:draconicevolution:fusion_crafting_core,size:1,meta:0,nbt:{}" iconType="stack" name="Fusion Crafting" sortingWeight="100">
+        <content alignment="CENTER" imgURL="https://raw.githubusercontent.com/brandon3055/Project-Intelligence-Docs/master/Assets/Draconic%20Evolution/Fusion%20Crafting.jpg" index="0" scale="100" type="image"/>
+        <entry branchId="draconicevolution:fusionCrafting/basicInjector" category="wiki.cat.block" icon="name:draconicevolution:crafting_pedestal,size:1,meta:0,nbt:{}" iconType="stack" name="Basic Fusion Crafting Injector"/>
+    <entry branchId="draconicevolution:fusionCrafting/wyvernInjector" category="wiki.cat.block" icon="name:draconicevolution:crafting_pedestal,size:1,meta:1,nbt:{}" iconType="stack" name="Wyvern Fusion Crafting Injector" sortingWeight="1"/>
+    <entry branchId="draconicevolution:fusionCrafting/draconicInjector" category="wiki.cat.block" icon="name:draconicevolution:crafting_pedestal,size:1,meta:2,nbt:{}" iconType="stack" name="Draconic Fusion Crafting Injector" sortingWeight="2"/>
+    <entry branchId="draconicevolution:fusionCrafting/chaotic Injector" category="wiki.cat.block" icon="name:draconicevolution:crafting_pedestal,size:1,meta:3,nbt:{}" iconType="stack" name="Chaotic Fusion Crafting Injector" sortingWeight="3"/>
+    </entry>
+</mod>
