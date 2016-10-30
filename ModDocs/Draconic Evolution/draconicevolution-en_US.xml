@@ -157,14 +157,61 @@ Used in high tier crafting recipes such as those for draconic tools and weapons.
         </entry>
     </entry>
 	<entry branchId="draconicevolution:wyvernTools" icon="name:draconicevolution:wyvern_pick,size:1,meta:0,nbt:{Energy:4000000}" iconType="stack" name="Wyvern Tools" sortingWeight="50">
+        <content index="11" size="8" type="vSpacer"/>
+        <content alignment="CENTER" hoverColour="0000FF" index="10" link="draconicevolution:wyvernTools" shadow="true" size="0" targetLocation="branch" type="link">§n//TODO</content>
+        <content index="9" size="4" type="vSpacer"/>
+        <content index="8" type="textArea">Tools can be configured via the Tool Config GUI. Click the clink bellow for more details.</content>
+        <content index="5" size="4" type="vSpacer"/>
+        <content alignment="CENTER" hoverColour="0000FF" index="6" link="draconicevolution:upgradeSystem" shadow="true" size="0" targetLocation="branch" type="link">§nFusion Upgrade System</content>
+        <content alignment="RIGHT" imgURL="https://raw.githubusercontent.com/brandon3055/Project-Intelligence-Docs/master/Assets/Draconic%20Evolution/Tools/Wyvern%20Tools.jpg" index="12" scale="200" type="image"/>
+        <content index="7" size="4" type="vSpacer"/>
+        
+        
+        
         <content index="2" size="8" type="vSpacer"/>
-        <content alignment="LEFT" index="3" type="textArea">§7//ToDo Add stuff here</content>
+        <content alignment="CENTER" index="3" type="textArea">The Wyvern tool set is the first step on the journey towards the ultimate tools!
+
+The wyvern tools have many advantages over vanilla tools.
+
+§6§n RF Powered §r
+
+§6§n Adjustable Mining Speed §r
+Not only are these tools faster than vanilla but it is also possible to adjust their speed.
+One of the biggest issues with fast tools is it can be really easy to destroy more blocks than intended which can be a big issue when for example working in sensitive areas of your base.
+This helps solve that issue.
+
+§6§n 5 Config Profiles §r
+Having to open a gui and make changes every time you want adjust say the mining speed or AOE can be annoying.
+So each of these tools has 5 configurable profiles which you can easily switch between using a keybinding (Default is Backslash "\")
+These profiles can also be renames for easier identification.
+
+§6§n Area of Effect Tools and Weapons §r
+All of the tools and weapons have AOE functions. The mining tools also have an option to enable an overlay that shows what blocks are covered by its AOE. 
+
+§6§n AOE Safe Mode §r
+This is a feature with all of the mining tools. When enabled the tool will check for any tile entities (e.g. machines) within its range.
+If it finds any it will not break any blocks and will instead give you a warning.
+This is a good way to avoid say.. accidentally wiping out your processing like when you get home from a mining trip. 
+
+§6§n Higher Attack Damage §r
+
+§6§n Tools and weapons can be upgraded! §r
+For information about tool upgrades click the link bellow!</content>
         <content alignment="CENTER" index="1" shadow="true" size="2" type="heading">§nWyvern Tools</content>
         <content index="0" size="8" type="vSpacer"/>
 		<entry branchId="draconicevolution:wyvernTools/pick" category="wiki.cat.item" icon="name:draconicevolution:wyvern_pick,size:1,meta:0,nbt:{Energy:4000000}" iconType="stack" name="Wyvern Pickaxe">
             <content index="3" type="recipe">name:draconicevolution:wyvern_pick,size:1,meta:0,nbt:{Energy:4000000,Profile_0:{digAOE:0,aoeSafeMode:0b,digSpeed:100,showDigAOE:0b}}</content>
             <content index="1" size="8" type="vSpacer"/>
-            <content alignment="LEFT" index="2" type="textArea">Note: Most of this info is out of date
+            <content alignment="LEFT" index="2" type="textArea">This pickaxe has several advantages over the diamond pick it is created from.
+
+§64 Million RF capacity upgradable to 32 Million.§r
+
+§6§r
+
+§6Dig AoE:§r
+
+§6Dig AoE:§r
+
 
 Tired of your slow, old diamond pick? Maybe it's time to upgrade! Wyvern tools run on RF and never break.
 All mining tools have an option to adjust mining speed, Dig AoE and AoE safe mode.
@@ -172,7 +219,7 @@ All mining tools have an option to adjust mining speed, Dig AoE and AoE safe mod
 §6Dig AoE:§r Allows you to adjust the mining AoE of the tool. Wyvern AoE: 1x1 and 3x3 (Upgradable)
 
 §6AoE Safe mode:§r If enabled the tool will check for any tile entities in the AoE and if it finds any the tool will not mine.</content>
-            <content alignment="LEFT" index="0" shadow="true" size="0" type="heading">//TODO Update</content>
+            <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">Wyvern Pickaxe</content>
         </entry>
 		<entry branchId="draconicevolution:wyvernTools/axe" category="wiki.cat.item" icon="name:draconicevolution:wyvern_axe,size:1,meta:0,nbt:{Energy:4000000}" iconType="stack" name="Wyvern Axe" sortingWeight="1">
             <content index="4" type="recipe">name:draconicevolution:wyvern_axe,size:1,meta:0,nbt:{Energy:4000000}</content>
@@ -184,7 +231,7 @@ Chopping:
 -§mTree Mode§r (Hold right click on a tree)
 -AoE safe mode to ensure you don't accidentally mine your entire base</content>
             <content index="1" size="8" type="vSpacer"/>
-            <content alignment="LEFT" index="0" shadow="true" size="0" type="heading">//TODO Update</content>
+            <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">Wyvern Axe</content>
         </entry>
 		<entry branchId="draconicevolution:wyvernTools/shovel" category="wiki.cat.item" icon="name:draconicevolution:wyvern_shovel,size:1,meta:0,nbt:{Energy:4000000}" iconType="stack" name="Wyvern Shovel" sortingWeight="2">
             <content index="4" type="recipe">name:draconicevolution:wyvern_shovel,size:1,meta:0,nbt:{Energy:4000000}</content>
@@ -199,7 +246,7 @@ Dig AoE: Allows you to adjust the digging area of the tool. Wyvern AoE: 1x1 and 
 
 AoE Safe mode: If enabled the shovel will check for any tile entities in the AoE and if it finds any it will not dig.</content>
             <content index="1" size="8" type="vSpacer"/>
-            <content alignment="LEFT" index="0" shadow="true" size="0" type="heading">//TODO Update</content>
+            <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">Wyvern Shovel</content>
         </entry>
 		<entry branchId="draconicevolution:wyvernTools/sword" category="wiki.cat.item" icon="name:draconicevolution:wyvern_sword,size:1,meta:0,nbt:{Energy:4000000}" iconType="stack" name="Wyvern Sword" sortingWeight="3">
             <content index="4" type="recipe">name:draconicevolution:wyvern_sword,size:1,meta:0,nbt:{Energy:4000000}</content>
@@ -212,7 +259,7 @@ Ordinary weaponry not good enough anymore? Using draconic knowledge you have fou
 +10% Mob Health (Adds 10% of the mob's own health to the attack damage)
 3x3 AoE Attack (Upgradable)</content>
             <content index="1" size="8" type="vSpacer"/>
-            <content alignment="LEFT" index="0" shadow="true" size="0" type="heading">//TODO Update</content>
+            <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">Wyvern Sword</content>
         </entry>
 		<entry branchId="draconicevolution:wyvernTools/bow" category="wiki.cat.item" icon="name:draconicevolution:wyvern_bow,size:1,meta:0,nbt:{Energy:4000000}" iconType="stack" name="Wyvern Bow" sortingWeight="4">
             <content index="4" type="recipe">name:draconicevolution:wyvern_bow,size:1,meta:0,nbt:{Energy:4000000}</content>
@@ -232,7 +279,7 @@ Energy Capacity, Draw Speed, Arrow Velocity and Base Damage can all be upgraded
 
 This bow is 10X more accurate then a vanilla bow. Meaning the arrow will land closer to where you were actually aiming and wont drift as much in flight</content>
             <content index="1" size="8" type="vSpacer"/>
-            <content alignment="LEFT" index="0" shadow="true" size="0" type="heading">//TODO Update</content>
+            <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">Wyvern Bow</content>
         </entry>
     </entry>
 	<entry branchId="draconicevolution:draconicTools" icon="name:draconicevolution:draconic_pick,size:1,meta:0,nbt:{Energy:16000000}" iconType="stack" name="Draconic Tools" sortingWeight="60">
