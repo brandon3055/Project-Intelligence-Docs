@@ -157,14 +157,24 @@ Used in high tier crafting recipes such as those for draconic tools and weapons.
         </entry>
     </entry>
     <entry branchId="draconicevolution:wyvernTools" icon="name:draconicevolution:wyvern_pick,size:1,meta:0,nbt:{Energy:4000000}" iconType="stack" name="Wyvern Tools" sortingWeight="50">
-        <content index="11" size="8" type="vSpacer"/>
-        <content alignment="CENTER" hoverColour="0000FF" index="10" link="draconicevolution:wyvernTools" shadow="true" size="0" targetLocation="branch" type="link">§n//TODO</content>
-        <content index="9" size="4" type="vSpacer"/>
-        <content index="8" type="textArea">Tools can be configured via the Tool Config GUI. Click the clink bellow for more details.</content>
+        <content index="11" type="textArea">§6§nTool Configuration§r
+
+Tools can be configured via the Tool Config GUI. Click the clink bellow for more details.
+The tool config GUI is what you use to configure most Draconic Evolution items.
+It can be accessed bu pressing the keybinding which is by default 'C'
+If this dose not work check that there are no conflicting keybindings.
+
+When you open the gui you will see your inventory.
+All configurable items will be highlighted and everything else will be greyed out.
+Simply click an item to access its config.</content>
+        <content index="12" size="8" type="vSpacer"/>
+        
+        
+        
         <content index="5" size="4" type="vSpacer"/>
-        <content alignment="CENTER" hoverColour="0000FF" index="6" link="draconicevolution:upgradeSystem" shadow="true" size="0" targetLocation="branch" type="link">§nFusion Upgrade System</content>
-        <content alignment="RIGHT" imgURL="https://raw.githubusercontent.com/brandon3055/Project-Intelligence-Docs/master/Assets/Draconic%20Evolution/Tools/Wyvern%20Tools.jpg" index="12" scale="200" type="image"/>
-        <content index="7" size="4" type="vSpacer"/>
+        <content alignment="CENTER" hoverColour="0000FF" index="6" link="draconicevolution:upgradeSystem" shadow="true" size="0" targetLocation="branch" type="link">§nLink: Fusion Upgrade System</content>
+        <content alignment="RIGHT" imgURL="https://raw.githubusercontent.com/brandon3055/Project-Intelligence-Docs/master/Assets/Draconic%20Evolution/Tools/Wyvern%20Tools.jpg" index="13" scale="200" type="image"/>
+        <content index="7" size="12" type="vSpacer"/>
         
         
         
