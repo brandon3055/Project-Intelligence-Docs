@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<mod docRevision="1" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
+<mod docRevision="2" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
     <content index="11" type="textArea">
 Also note i am still in the process of updating this documentation so a lot of it is copied from 1.7.10 and is inacurate.</content>
     <content index="10" size="8" type="vSpacer"/>
@@ -37,7 +37,7 @@ Some of the key features of this mod are: </content>
     <content alignment="CENTER" index="2" shadow="false" size="0" type="heading">ABC...LMN§cDraconic Evolution§rQR...WXYZ</content>
     <content index="1" size="8" type="vSpacer"/>
     <content alignment="CENTER" index="0" shadow="true" size="1" type="heading">§nDraconic Evolution</content>
-	<entry branchId="draconicevolution:draconium" category="wiki.cat.item" icon="name:draconicevolution:draconium_ingot,size:1,meta:0,nbt:{}" iconType="stack" name="Draconium" sortingWeight="10">
+    <entry branchId="draconicevolution:draconium" category="wiki.cat.item" icon="name:draconicevolution:draconium_ingot,size:1,meta:0,nbt:{}" iconType="stack" name="Draconium" sortingWeight="10">
         <content index="6" type="recipe">name:draconicevolution:nugget,size:1,meta:0,nbt:{}</content>
         <content index="5" type="recipe">name:draconicevolution:draconium_ingot,size:1,meta:0,nbt:{}</content>
         <content index="4" size="8" type="vSpacer"/>
@@ -115,7 +115,7 @@ Equivelent to 12 book shelves when used as an enchanting booster.</content>
             <content index="0" type="recipe">name:draconicevolution:nugget,size:1,meta:0,nbt:{}</content>
         </entry>
     </entry>
-	<entry branchId="draconicevolution:cores" icon="name:draconicevolution:draconic_core,size:1,meta:0,nbt:{}" iconType="stack" name="Cores" sortingWeight="20">
+    <entry branchId="draconicevolution:cores" icon="name:draconicevolution:draconic_core,size:1,meta:0,nbt:{}" iconType="stack" name="Cores" sortingWeight="20">
         <content index="0" type="textArea">
 Cores come in 4 tiers and are components in almost all Draconic Evolution crafting recipes.</content>
         <entry branchId="draconicevolution:cores/draconic" category="wiki.cat.item" icon="name:draconicevolution:draconic_core,size:1,meta:0,nbt:{}" iconType="stack" name="Draconic Core">
@@ -156,7 +156,7 @@ Used in high tier crafting recipes such as those for draconic tools and weapons.
             <content index="0" size="8" type="vSpacer"/>
         </entry>
     </entry>
-	<entry branchId="draconicevolution:wyvernTools" icon="name:draconicevolution:wyvern_pick,size:1,meta:0,nbt:{Energy:4000000}" iconType="stack" name="Wyvern Tools" sortingWeight="50">
+    <entry branchId="draconicevolution:wyvernTools" icon="name:draconicevolution:wyvern_pick,size:1,meta:0,nbt:{Energy:4000000}" iconType="stack" name="Wyvern Tools" sortingWeight="50">
         <content index="11" size="8" type="vSpacer"/>
         <content alignment="CENTER" hoverColour="0000FF" index="10" link="draconicevolution:wyvernTools" shadow="true" size="0" targetLocation="branch" type="link">§n//TODO</content>
         <content index="9" size="4" type="vSpacer"/>
@@ -202,202 +202,239 @@ For information about tool upgrades click the link bellow!</content>
 		<entry branchId="draconicevolution:wyvernTools/pick" category="wiki.cat.item" icon="name:draconicevolution:wyvern_pick,size:1,meta:0,nbt:{Energy:4000000}" iconType="stack" name="Wyvern Pickaxe">
             <content index="3" type="recipe">name:draconicevolution:wyvern_pick,size:1,meta:0,nbt:{Energy:4000000,Profile_0:{digAOE:0,aoeSafeMode:0b,digSpeed:100,showDigAOE:0b}}</content>
             <content index="1" size="8" type="vSpacer"/>
-            <content alignment="LEFT" index="2" type="textArea">This pickaxe has several advantages over the diamond pick it is created from.
+            <content alignment="LEFT" index="2" type="textArea">§b§nStats:
 
 §64 Million RF capacity upgradable to 32 Million.§r
 
-§6§r
-
-§6Dig AoE:§r
-
-§6Dig AoE:§r
-
-
-Tired of your slow, old diamond pick? Maybe it's time to upgrade! Wyvern tools run on RF and never break.
-All mining tools have an option to adjust mining speed, Dig AoE and AoE safe mode.
-
-§6Dig AoE:§r Allows you to adjust the mining AoE of the tool. Wyvern AoE: 1x1 and 3x3 (Upgradable)
-
-§6AoE Safe mode:§r If enabled the tool will check for any tile entities in the AoE and if it finds any the tool will not mine.</content>
+§61x1 base mining AOE. Upgradable to 5x5 §r</content>
             <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">Wyvern Pickaxe</content>
         </entry>
 		<entry branchId="draconicevolution:wyvernTools/axe" category="wiki.cat.item" icon="name:draconicevolution:wyvern_axe,size:1,meta:0,nbt:{Energy:4000000}" iconType="stack" name="Wyvern Axe" sortingWeight="1">
             <content index="4" type="recipe">name:draconicevolution:wyvern_axe,size:1,meta:0,nbt:{Energy:4000000}</content>
             <content index="3" size="8" type="vSpacer"/>
-            <content alignment="LEFT" index="2" type="textArea">Note: Most of this info is out of date
+            <content alignment="LEFT" index="2" type="textArea">§b§nStats:
 
-Chopping:
--1x1x1 to 5x5x1 Base AoE with depth independently adjustable (Upgradable)
--§mTree Mode§r (Hold right click on a tree)
--AoE safe mode to ensure you don't accidentally mine your entire base</content>
+§64 Million RF capacity upgradable to 32 Million.§r
+
+§61x1 base mining AOE. Upgradable to 5x5§r
+
+§6Tree Harvesting§r
+When enabled simply hold right click on the base of a tree and this axe will quickly block by block harvest the entire tree.
+This axe can harvest up to 512 blocks at a time.</content>
             <content index="1" size="8" type="vSpacer"/>
             <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">Wyvern Axe</content>
         </entry>
 		<entry branchId="draconicevolution:wyvernTools/shovel" category="wiki.cat.item" icon="name:draconicevolution:wyvern_shovel,size:1,meta:0,nbt:{Energy:4000000}" iconType="stack" name="Wyvern Shovel" sortingWeight="2">
             <content index="4" type="recipe">name:draconicevolution:wyvern_shovel,size:1,meta:0,nbt:{Energy:4000000}</content>
             <content index="3" size="8" type="vSpacer"/>
-            <content alignment="LEFT" index="2" type="textArea">Note: Most of this info is out of date
+            <content alignment="LEFT" index="2" type="textArea">§b§nStats:
 
-Tired of your slow, old diamond shovel? Maybe it's time to upgrade! Wyvern tools run on RF and never break.
+§64 Million RF capacity upgradable to 32 Million.§r
 
-All mining tools have an option to adjust mining speed, Dig AoE and AoE safe mode.
-
-Dig AoE: Allows you to adjust the digging area of the tool. Wyvern AoE: 1x1 and 3x3 (Upgradable)
-
-AoE Safe mode: If enabled the shovel will check for any tile entities in the AoE and if it finds any it will not dig.</content>
+§61x1 base mining AOE. Upgradable to 5x5§r</content>
             <content index="1" size="8" type="vSpacer"/>
             <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">Wyvern Shovel</content>
         </entry>
 		<entry branchId="draconicevolution:wyvernTools/sword" category="wiki.cat.item" icon="name:draconicevolution:wyvern_sword,size:1,meta:0,nbt:{Energy:4000000}" iconType="stack" name="Wyvern Sword" sortingWeight="3">
             <content index="4" type="recipe">name:draconicevolution:wyvern_sword,size:1,meta:0,nbt:{Energy:4000000}</content>
             <content index="3" size="8" type="vSpacer"/>
-            <content alignment="LEFT" index="2" type="textArea">Note: Most of this info is out of date
+            <content alignment="LEFT" index="2" type="textArea">§b§nStats:
 
-Ordinary weaponry not good enough anymore? Using draconic knowledge you have found a way to imbue an ordinary diamond sword with the power of Draconium.
+§64 Million RF capacity upgradable to 32 Million.§r
 
-+20 Attack damage (Upgradable)
-+10% Mob Health (Adds 10% of the mob's own health to the attack damage)
-3x3 AoE Attack (Upgradable)</content>
+§615 base Attack. Upgradable to 22.5§r
+
+§6Attack radios can be upgraded to 5x5§r
+Note the AOE attack only works when the sword is fully charged.
+(Referring to the new vanilla charging mechanic)</content>
             <content index="1" size="8" type="vSpacer"/>
             <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">Wyvern Sword</content>
         </entry>
 		<entry branchId="draconicevolution:wyvernTools/bow" category="wiki.cat.item" icon="name:draconicevolution:wyvern_bow,size:1,meta:0,nbt:{Energy:4000000}" iconType="stack" name="Wyvern Bow" sortingWeight="4">
             <content index="4" type="recipe">name:draconicevolution:wyvern_bow,size:1,meta:0,nbt:{Energy:4000000}</content>
             <content index="3" size="8" type="vSpacer"/>
-            <content alignment="LEFT" index="2" type="textArea">Looking for a more powerful bow with some fancy features? This is the one for you.
+            <content alignment="LEFT" index="2" type="textArea">The bows in Draconic Evolution are very powerful with many different configurable settings.
 
-Adjustable Settings:
--[Base Damage] This multiplied by the arrows velocity on impact determines the inflicted damage
--[Arrow Velocity Modifier] +0 is equivalent to a vanilla bow.
--[Auto Fire] The bow will automatically fire when it reaches full draw.
--[Explosive Power] Exactly what it sounds like!
--[Magnification] Allows you to zoom in on your target for better accuracy.
+§64 Million RF capacity upgradable to 32 Million.§r
 
-The RF cost per shot if determined by multiplying the settings for Damage Velocity and Explosion power. This means that simply setting everything to Max requires exponentially more power then setting say damage to maximum.
+§6Arrow damage: base 2, Upgradable to 6§r
 
-Energy Capacity, Draw Speed, Arrow Velocity and Base Damage can all be upgraded
+§6Arrow Velocity: base +100%, Upgradable to +300%§r
 
-This bow is 10X more accurate then a vanilla bow. Meaning the arrow will land closer to where you were actually aiming and wont drift as much in flight</content>
+§6Auto Fire Mode§r
+Will automatically fire when the bow is fully charged.
+
+§6Explosion Power§r
+Allows you to make your arrow explosive.
+Max power is equivalent to TNT
+
+§6Magnification§r
+Allows you to zoom in on the target to increase your accuracy
+
+§aInfo:§r
+Damage is calculated by multiplying arrow velocity with Arrow damage with some randomness involved.
+
+The energy required per shot is calculated by multiplying damage, velocity and explosion power.
+This means that just setting all 3 to maximum will require an enormous amount of power per shot.</content>
             <content index="1" size="8" type="vSpacer"/>
             <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">Wyvern Bow</content>
         </entry>
     </entry>
-	<entry branchId="draconicevolution:draconicTools" icon="name:draconicevolution:draconic_pick,size:1,meta:0,nbt:{Energy:16000000}" iconType="stack" name="Draconic Tools" sortingWeight="60">
-        <content alignment="LEFT" index="3" shadow="true" size="0" type="heading">//TODO Add Stuff Here</content>
+    <entry branchId="draconicevolution:draconicTools" icon="name:draconicevolution:draconic_pick,size:1,meta:0,nbt:{Energy:16000000}" iconType="stack" name="Draconic Tools" sortingWeight="60">
+        <content index="4" type="textArea">These are the top tier Draconic Evolution tools and weapons.
+
+These tools inherit all of the abilities of the Wyvern tools but with some significant upgrades upgrades.
+
+§6§nAdjustable Dig Depth.§r
+All of the mining tools have adjustable mining depth.
+Meaning you can for example mine a 5x5x5 cube.</content>
+        <content index="5" size="8" type="vSpacer"/>
+        <content imgURL="https://raw.githubusercontent.com/brandon3055/Project-Intelligence-Docs/master/Assets/Draconic%20Evolution/Tools/Draconic%20Tools.jpg" index="6" scale="100" type="image"/>
+        
         <content index="2" size="8" type="vSpacer"/>
         <content alignment="CENTER" index="1" shadow="true" size="3" type="heading">§nDraconic Tools</content>
         <content index="0" size="8" type="vSpacer"/>
         <entry branchId="draconicevolution:draconicTools/pickaxe" category="wiki.cat.item" icon="name:draconicevolution:draconic_pick,size:1,meta:0,nbt:{Energy:16000000}" iconType="stack" name="Draconic Pickaxe">
 			<content index="4" type="recipe">name:draconicevolution:draconic_pick,size:1,meta:0,nbt:{Energy:16000000}</content>
 			<content index="3" size="8" type="vSpacer"/>
-			<content alignment="LEFT" index="2" type="textArea">Note: Most of this info is out of date
+			<content alignment="LEFT" index="2" type="textArea">§b§nStats:
 
-Further Draconic research has shown you ways to even greater power...
+§616 Million RF capacity upgradable to 256 Million.§r
 
-Mining:
--1x1x1 to 5x5x1 Base AoE with depth independently adjustable (Upgradable)
--§mJunk filter§r (Will be back)
--AoE safe mode to ensure you don't accidentally mine your entire base</content>
+§63x3 base mining AOE. Upgradable to 9x9§r
+
+§63 block dig depth. Upgradable to 9§r</content>
 			<content index="1" size="8" type="vSpacer"/>
-			<content alignment="LEFT" index="0" shadow="true" size="0" type="heading">//ToDo Update</content>
+			<content alignment="LEFT" index="0" shadow="true" size="2" type="heading">Draconic Pickaxe</content>
         </entry>
 		<entry branchId="draconicevolution:draconicTools/axe" category="wiki.cat.item" icon="name:draconicevolution:draconic_axe,size:1,meta:0,nbt:{Energy:16000000}" iconType="stack" name="Draconic Axe" sortingWeight="1">
 			<content index="4" type="recipe">name:draconicevolution:draconic_axe,size:1,meta:0,nbt:{Energy:16000000}</content>
 			<content index="3" size="8" type="vSpacer"/>
-			<content alignment="LEFT" index="2" type="textArea">Note: Most of this info is out of date
+			<content alignment="LEFT" index="2" type="textArea">§b§nStats:
 
-Further Draconic research has shown you ways to even greater power...
+§616 Million RF capacity upgradable to 256 Million.§r
 
-Chopping:
--1x1x1 to 5x5x1 Base AoE with depth independently adjustable (Upgradable)
--§mTree Mode§r (Hold right click on a tree)
--AoE safe mode to ensure you don't accidentally mine your entire base</content>
+§63x3 base mining AOE. Upgradable to 9x9§r
+
+§63 block dig depth. Upgradable to 9§r
+
+§6Tree Harvesting§r
+When enabled simply hold right click on the base of a tree and this axe will quickly block by block harvest the entire tree.
+This axe can harvest up to 8192 blocks at a time. </content>
 			<content index="1" size="8" type="vSpacer"/>
-			<content alignment="LEFT" index="0" shadow="true" size="0" type="heading">//ToDo Update</content>
+			<content alignment="LEFT" index="0" shadow="true" size="2" type="heading">Draconic Axe</content>
         </entry>
 		<entry branchId="draconicevolution:draconicTools/shovel" category="wiki.cat.item" icon="name:draconicevolution:draconic_shovel,size:1,meta:0,nbt:{Energy:16000000}" iconType="stack" name="Draconic Shovel" sortingWeight="2">
 			<content index="4" type="recipe">name:draconicevolution:draconic_shovel,size:1,meta:0,nbt:{Energy:16000000}</content>
 			<content index="3" size="8" type="vSpacer"/>
-			<content alignment="LEFT" index="2" type="textArea">Note: Most of this info is out of date
+			<content alignment="LEFT" index="2" type="textArea">§b§nStats:
 
-Further Draconic research has shown you ways to even greater power...
+§616 Million RF capacity upgradable to 256 Million.§r
 
-Mining:
--1x1x1 to 5x5x1 Base AoE with depth independently adjustable (Upgradable)
--§mJunk filter§r (Will be back)
--AoE safe mode to ensure you don't accidentally mine your entire base</content>
+§63x3 base mining AOE. Upgradable to 9x9§r
+
+§63 block dig depth. Upgradable to 9§r</content>
 			<content index="1" size="8" type="vSpacer"/>
-			<content alignment="LEFT" index="0" shadow="true" size="0" type="heading">//ToDo Update</content>
+			<content alignment="LEFT" index="0" shadow="true" size="2" type="heading">Draconic Shovel</content>
         </entry>
 		<entry branchId="draconicevolution:draconicTools/hoe" category="wiki.cat.item" icon="name:draconicevolution:draconic_hoe,size:1,meta:0,nbt:{Energy:16000000}" iconType="stack" name="Draconic Hoe" sortingWeight="3">
 			<content index="4" type="recipe">name:draconicevolution:draconic_hoe,size:1,meta:0,nbt:{Energy:16000000}</content>
 			<content index="3" size="8" type="vSpacer"/>
-			<content alignment="LEFT" index="2" type="textArea">Note: Most of this info is out of date
+			<content alignment="LEFT" index="2" type="textArea">§b§nStats:
 
-Further Draconic research has shown you ways to even greater power...
+§616 Million RF capacity upgradable to 256 Million.§r
 
-Tilling:
--1x1 to 7x7 Base AoE (Upgradable)
--will dig or replace dirt (if you have dirt in your inventory).</content>
+§63x3 base mining AOE. Upgradable to 9x9§r
+
+§6Land Fill Mode§r
+When this mode is enabled it will try to automatically level out the terrain as it tills using dirt from your inventory.
+It will fill up to a 1 block deep depression and harvest up to 1 block above the tilling area.
+Any blocks harvested are placed in the players inventory.</content>
 			<content index="1" size="8" type="vSpacer"/>
-			<content alignment="LEFT" index="0" shadow="true" size="0" type="heading">//ToDo Update</content>
+			<content alignment="LEFT" index="0" shadow="true" size="2" type="heading">Draconic Hoe</content>
         </entry>
 		<entry branchId="draconicevolution:draconicTools/sword" category="wiki.cat.item" icon="name:draconicevolution:draconic_sword,size:1,meta:0,nbt:{Energy:16000000}" iconType="stack" name="Draconic Sword" sortingWeight="4">
 			<content index="4" type="recipe">name:draconicevolution:draconic_sword,size:1,meta:0,nbt:{Energy:16000000}</content>
 			<content index="3" size="8" type="vSpacer"/>
-			<content alignment="LEFT" index="2" type="textArea">Note: Most of this info is out of date
+			<content alignment="LEFT" index="2" type="textArea">§b§nStats:
 
-Seeking an even more powerful weapon you combine your Wyvern sword with Awakened Draconium to make the ultimate sword.
+§616 Million RF capacity upgradable to 256 Million.§r
 
-+40 Attack damage (Upgradable)
-+20% Mob Health (Adds 20% of the mob's own health to the attack damage)
-5x5 AoE Attack (Upgradable)</content>
+§63x3 base attack radios. Upgradable to 13x13§r
+Note the AOE attack only works when the sword is fully charged.
+(Referring to the new vanilla charging mechanic)
+
+§635 base Attack. Upgradable to 61.25§r</content>
 			<content index="1" size="8" type="vSpacer"/>
-			<content alignment="LEFT" index="0" shadow="true" size="0" type="heading">//ToDo Update</content>
+			<content alignment="LEFT" index="0" shadow="true" size="2" type="heading">Draconic Sword</content>
         </entry>
 		<entry branchId="draconicevolution:draconicTools/bow" category="wiki.cat.item" icon="name:draconicevolution:draconic_bow,size:1,meta:0,nbt:{Energy:16000000}" iconType="stack" name="Draconic Bow" sortingWeight="5">
 			<content index="4" type="recipe">name:draconicevolution:draconic_bow,size:1,meta:0,nbt:{Energy:16000000}</content>
 			<content index="3" size="8" type="vSpacer"/>
-			<content alignment="LEFT" index="2" type="textArea">Further Draconic research has shown you ways to even greater power...
+			<content alignment="LEFT" index="2" type="textArea">The bows in Draconic Evolution are very powerful with many different configurable settings.
 
-Adjustable Settings:
--[Base Damage] This multiplied by the arrows velocity on impact determines the inflicted damage
--[Arrow Velocity Modifier] +0 is equivalent to a vanilla bow.
--[Auto Fire] The bow will automatically fire when it reaches full draw.
--[Explosive Power] Exactly what it sounds like!
--[Shock Wave Power] The arrow will generate an extremely powerful shock wave on impact that will deal a large amount of damage to entities within the blast radius. This will not destroy blocks and is only possible with Arrow Of Draconic Fire enabled.
--[Arrow of Draconic Fire] Similar to Infinity this allows you to fire without needing arrows in your inventory. But it also increases inflicted damage by 10% allows you to use the Shock Wave effect and is 50% lighter meaning it is less effected by gravity in flight.
--[Magnification] Allows you to zoom in on your target for better accuracy.
+§64 Million RF capacity upgradable to 32 Million.§r
 
-The RF cost per shot if determined by multiplying the settings for Damage Velocity and Explosion power. This means that simply setting everything to Max requires exponentially more power then setting say damage to maximum.
+§6Arrow damage: base 3, Upgradable to 9§r
 
-Energy Capacity, Draw Speed, Arrow Velocity and Base Damage can all be upgraded
+§6Arrow Velocity: base +200%, Upgradable to +500%§r
 
-This bow is 10X more accurate then a vanilla bow. Meaning the arrow will land closer to where you were actually aiming and wont drift as much in flight
-</content>
+§6Auto Fire Mode§r
+Will automatically fire when the bow is fully charged.
+
+§6Explosion Power§r
+Allows you to make your arrow explosive.
+Max power is equivalent to TNT
+
+§6Arrow Of Draconic Fire§r
+Switch to firing an arrow composed of pure Draconic energy!  
+This is essentially the same as infinity but also increases damage.
+And allows some other features.
+
+§6Shock Wave Power§r
+This creates a shock wave that deals damage similar to an explosion but more powerful and without damaging blocks.
+Only available with Arrow Of Draconic Fire
+
+§6Magnification§r
+Allows you to zoom in on the target to increase your accuracy
+
+§aInfo:§r
+Damage is calculated by multiplying arrow velocity with Arrow damage with some randomness involved.
+
+The energy required per shot is calculated by multiplying damage, velocity and explosion power.
+This means that just setting all 3 to maximum will require an enormous amount of power per shot.
+
+Shock Wave is only compatible with Arrow Of Draconic Fire.
+And explosive is not compatible with Arrow Of Draconic Fire</content>
 			<content index="1" size="8" type="vSpacer"/>
-			<content alignment="LEFT" index="0" shadow="true" size="0" type="heading">//ToDo Update</content>
+			<content alignment="LEFT" index="0" shadow="true" size="2" type="heading">Draconic Bow</content>
         </entry>
 		<entry branchId="draconicevolution:draconicTools/staff" category="wiki.cat.item" icon="name:draconicevolution:draconic_staff_of_power,size:1,meta:0,nbt:{Energy:48000000}" iconType="stack" name="Draconic Staff Of Power" sortingWeight="6">
 			<content index="4" type="recipe">name:draconicevolution:draconic_staff_of_power,size:1,meta:0,nbt:{Energy:48000000}</content>
 			<content index="3" size="8" type="vSpacer"/>
-			<content alignment="LEFT" index="2" type="textArea">Note: Most of this info is out of date
+			<content alignment="LEFT" index="2" type="textArea">The staff of power is one of the mods powerful items in Draconic Evolution.
+It is both a mining tool and a powerful weapon with similar abilities to the Draconic Sword.
+But Stronger!
 
-After great pains you have mastered the powers of the Draconic and created the ultimate weapon and destructive tool!
-Mining:
--Extreme mining speed
--1x1x1 to 7x7x7 Base AoE with depth independently adjustable (Upgradable)
--§mJunk filter§r (Will be back)
--AoE safe mode to ensure you don't accidentally mine your entire base
--Attack:
-+60 Attack damage (Upgradable)
-+30% Mob Health (Adds 30% of the mob's own health to the attack damage)
--1x1 to 7x7 AOE Attack (Upgradable)</content>
+§b§nStats:
+
+§648 Million RF capacity upgradable to 768 Million.§r
+
+§65x5 base mining AOE. Upgradable to 11x11§r
+
+§65 block dig depth. Upgradable to 11§r
+
+§660 base Attack. Upgradable to 105§r
+It should be noted that because this is such a large heavy weapon the attack speed is fairly slow.
+
+§65x5 base attack radios. Upgradable to 17x17§r
+Note the AOE attack only works when the sword is fully charged.
+(Referring to the new vanilla charging mechanic)</content>
 			<content index="1" size="8" type="vSpacer"/>
-			<content alignment="LEFT" index="0" shadow="true" size="0" type="heading">//ToDo Update</content>
+			<content alignment="LEFT" index="0" shadow="true" size="2" type="heading">Draconic Staff Of Power</content>
         </entry>
     </entry>
-	<entry branchId="draconicevolution:fusionCrafting" category="wiki.cat.block" icon="name:draconicevolution:fusion_crafting_core,size:1,meta:0,nbt:{}" iconType="stack" name="Fusion Crafting" sortingWeight="100">
+    <entry branchId="draconicevolution:fusionCrafting" category="wiki.cat.block" icon="name:draconicevolution:fusion_crafting_core,size:1,meta:0,nbt:{}" iconType="stack" name="Fusion Crafting" sortingWeight="100">
         <content index="10" size="8" type="vSpacer"/>
         <content index="9" type="recipe">name:draconicevolution:fusion_crafting_core,size:1,meta:0,nbt:{}</content>
         <content index="8" size="8" type="vSpacer"/>
@@ -481,7 +518,7 @@ Each glass block reprisents a valid location for an injector.</content>
             <content index="0" size="8" type="vSpacer"/>
         </entry>
     </entry>
-<entry branchId="draconicevolution:energyCore" icon="name:draconicevolution:energy_storage_core,size:1,meta:0,nbt:{}" iconType="stack" name="Energy Storage Core" sortingWeight="150">
+    <entry branchId="draconicevolution:energyCore" icon="name:draconicevolution:energy_storage_core,size:1,meta:0,nbt:{}" iconType="stack" name="Energy Storage Core" sortingWeight="150">
         <content index="15" size="8" type="vSpacer"/>
         <content alignment="CENTER" hoverColour="0000FF" index="14" link="draconicevolution:energyCore/setup" shadow="true" size="0" targetLocation="branch" type="link">§nClick here for the setup guide</content>
         <content index="13" size="8" type="vSpacer"/>
@@ -658,7 +695,7 @@ These are simply 9 regular stabilizers in the configureation shown bellow</conte
             <content alignment="CENTER" index="2" shadow="true" size="1" type="heading">Stabilizers</content>
         </entry>
     </entry>
-<entry branchId="draconicevolution:awakenedDraconium" category="wiki.cat.item" icon="name:draconicevolution:draconic_ingot,size:1,meta:0,nbt:{}" iconType="stack" name="Awakened Draconium" sortingWeight="11">
+    <entry branchId="draconicevolution:awakenedDraconium" category="wiki.cat.item" icon="name:draconicevolution:draconic_ingot,size:1,meta:0,nbt:{}" iconType="stack" name="Awakened Draconium" sortingWeight="11">
         <content index="5" type="splitContainer" vAlignment="TOP">
             <content index="0" splitSide="LEFT" type="recipe">name:draconicevolution:draconic_ingot,size:1,meta:0,nbt:{}</content>
             <content index="0" splitSide="RIGHT" type="recipe">name:draconicevolution:draconic_block,size:1,meta:0,nbt:{}</content>
@@ -682,7 +719,7 @@ This powerful item is used to craft Awakened Draconium. </content>
             <content index="0" type="recipe">name:draconicevolution:nugget,size:1,meta:1,nbt:{}</content>
         </entry>
     </entry>
-<entry branchId="draconicevolution:upgradeSystem" category="wiki.cat.item" icon="name:draconicevolution:tool_upgrade,size:1,meta:0,nbt:{}" iconType="stack" name="Upgrade System" sortingWeight="160">
+    <entry branchId="draconicevolution:upgradeSystem" category="wiki.cat.item" icon="name:draconicevolution:tool_upgrade,size:1,meta:0,nbt:{}" iconType="stack" name="Upgrade System" sortingWeight="160">
         <content index="21" size="8" type="vSpacer"/>
         <content alignment="CENTER" hoverColour="0000FF" index="20" link="draconicevolution:fusionCrafting" shadow="true" size="0" targetLocation="branch" type="link">§nClick here to lean about fusion crafting!</content>
         <content index="19" size="8" type="vSpacer"/>
