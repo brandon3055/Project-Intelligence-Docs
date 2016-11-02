@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<mod docRevision="2" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
+<mod docRevision="3" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
     <content index="11" type="textArea">
 Also note i am still in the process of updating this documentation so a lot of it is copied from 1.7.10 and is inacurate.</content>
     <content index="10" size="8" type="vSpacer"/>
@@ -106,9 +106,11 @@ Equivelent to 4 book shelves when used as an enchanting booster.</content>
 
         </entry>
     <entry branchId="draconicevolution:draconium/blockCharged" category="wiki.cat.block" icon="name:draconicevolution:draconium_block,size:1,meta:1,nbt:{}" iconType="stack" name="Charged Draconium Block" sortingWeight="13">
-            <content index="1" type="textArea">By placing a draconium block in a charging device such as an Energy Infuser and and supplying it with 100 million RF you can make a Charged Draconium Block. Currently in this version of Draconic Evolution this is not used for anything.
+            <content index="1" type="textArea">§mBy placing a draconium block in a charging device such as an Energy Infuser and and supplying it with 100 million RF you can make a Charged Draconium Block. Currently in this version of Draconic Evolution this is not used for anything.
 
-Equivelent to 12 book shelves when used as an enchanting booster.</content>
+Equivelent to 12 book shelves when used as an enchanting booster.§r
+§cThis block is currently disabled untill some changes can be made.
+It is not currently used for much so this should not be a big issue.</content>
             <content index="0" size="8" type="vSpacer"/>
         </entry>
     <entry branchId="draconicevolution:draconium/nugget" category="wiki.cat.item" icon="name:draconicevolution:nugget,size:1,meta:0,nbt:{}" iconType="stack" name="Draconium Nugget" sortingWeight="14">
@@ -289,8 +291,24 @@ This means that just setting all 3 to maximum will require an enormous amount of
             <content index="1" size="8" type="vSpacer"/>
             <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">Wyvern Bow</content>
         </entry>
+    <entry branchId="draconicevolution:wyvernTools/capacitor" category="wiki.cat.item" icon="draconicevolution:draconium_capacitor,1,0,{Energy:64000000}" iconType="stack" name="Wyvern FLux Capacitor" sortingWeight="5">
+            <content index="4" type="recipe">draconicevolution:draconium_capacitor,1,0,{Energy:64000000}</content>
+            <content index="3" size="8" type="vSpacer"/>
+            <content index="2" type="textArea">Tired of your tools and armor running out of energy when you need them most, you have figured out how to create an item capable of storing an immense amount of energy and transferring it to your items as they need it.
+
+The wyvern flux capacitor has 4 operating modes and you can sneak-right click the capacytor to cycle between them
+
+§6Inactive
+Charge Armor
+Charge Armor + Held Item
+Charge Held Item§r
+
+This capacitor has a base capacity of 64 Million RF and can be upgraded to 128 Million</content>
+            <content index="1" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nWyvern Flux Capacitor</content>
+        </entry>
     </entry>
-    <entry branchId="draconicevolution:draconicTools" icon="name:draconicevolution:draconic_pick,size:1,meta:0,nbt:{Energy:16000000}" iconType="stack" name="Draconic Tools" sortingWeight="60">
+    <entry branchId="draconicevolution:draconicTools" icon="draconicevolution:draconic_pick,1,0,{Energy:16000000}" iconType="stack" name="Draconic Tools" sortingWeight="51">
         <content index="4" type="textArea">These are the top tier Draconic Evolution tools and weapons.
 
 These tools inherit all of the abilities of the Wyvern tools but with some significant upgrades upgrades.
@@ -442,6 +460,15 @@ Note the AOE attack only works when the sword is fully charged.
 (Referring to the new vanilla charging mechanic)</content>
 			<content index="1" size="8" type="vSpacer"/>
 			<content alignment="LEFT" index="0" shadow="true" size="2" type="heading">Draconic Staff Of Power</content>
+        </entry>
+    <entry branchId="draconicevolution:draconicTools/capacitor" category="wiki.cat.item" icon="draconicevolution:draconium_capacitor,1,1,{Energy:256000000}" iconType="stack" name="Draconic Flux Capacitor" sortingWeight="7">
+            <content alignment="CENTER" hoverColour="0000FF" index="4" link="draconicevolution:wyvernTools/capacitor" shadow="true" size="0" targetLocation="branch" type="link">§nClick to the left or right of this text to edit.</content>
+            <content index="5" size="8" type="vSpacer"/>
+            <content index="6" type="recipe">draconicevolution:draconium_capacitor,1,1,{Energy:256000000}</content>
+            <content index="3" size="8" type="vSpacer"/>
+            <content index="2" type="textArea">This capacitor is similar to the wyvern flux capacitor except it has a base capacity of 256 Million RF and can be upgraded to 640 Million.</content>
+            <content index="1" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nDraconic Flux Capacitor</content>
         </entry>
     </entry>
     <entry branchId="draconicevolution:fusionCrafting" category="wiki.cat.block" icon="name:draconicevolution:fusion_crafting_core,size:1,meta:0,nbt:{}" iconType="stack" name="Fusion Crafting" sortingWeight="100">
@@ -800,5 +827,406 @@ To pause the display simple hold CTRL aswell. Try it on some of the keys bellow.
         <content index="2" size="8" type="vSpacer"/>
         <content alignment="CENTER" index="1" shadow="true" size="2" type="heading">§nFusion Upgrades</content>
         <content index="0" size="8" type="vSpacer"/>
+    </entry>
+<entry branchId="draconicevolution:wyvernArmor" category="wiki.cat.item" icon="draconicevolution:wyvern_chest,1,0,{Energy:4000000}" iconType="stack" name="Wyvern Armor" sortingWeight="60">
+        <content imgURL="https://raw.githubusercontent.com/brandon3055/Project-Intelligence-Docs/master/Assets/Draconic%20Evolution/Armor/Wyvern%20Armor.jpg" index="7" scale="30" type="image"/>
+        <content index="6" size="8" type="vSpacer"/>
+        <content alignment="CENTER" hoverColour="0000FF" index="5" link="draconicevolution:deEnergyShield" shadow="true" size="0" targetLocation="branch" type="link">§nDraconic Energy Shield</content>
+        <content index="4" size="8" type="vSpacer"/>
+        <content index="3" type="textArea">Wyvern armor is your first step on the journey towards the ultimate armor set!
+
+On first glance the armor in Draconic Evolution may seem to have fairly underwhelming stats.
+But the actual armor effect of this armor is NOT its primary line of defence.
+All armor in DE comes with a powerful shield that is capable of absorbing massive amounts of damage.
+You can read about on the page linked bellow.
+Some pieces of the armor also provide some buffs which can of coarse be configured via the DE config Gui.
+
+Wearing full wyvern armor gives 100% fire resistance.  </content>
+        <content index="2" size="8" type="vSpacer"/>
+        <content index="0" size="8" type="vSpacer"/>
+        <content alignment="CENTER" index="1" shadow="true" size="2" type="heading">§nWyvern Armor</content>
+    <entry branchId="draconicevolution:wyvernArmor/wyvernHelmet" category="wiki.cat.item" icon="draconicevolution:wyvern_helm,1,0,{Energy:3945909,ShieldEntropy:0.0f,ProtectionPoints:38.4f}" iconType="stack" name="Wyvern Helmet">
+            <content index="3" type="textArea">§bStats:
+
+§6+20 Base Shield Capacity
++2 Armor Toughness
++3 Armor
+</content>
+            <content index="5" type="recipe">draconicevolution:wyvern_helm,1,0,{Energy:3945909,ShieldEntropy:0.0f,ProtectionPoints:38.4f}</content>
+            <content index="4" size="8" type="vSpacer"/>
+            <content index="1" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nWyvern Helmet</content>
+        </entry>
+    <entry branchId="draconicevolution:wyvernArmor/wyvernChestplate" category="wiki.cat.item" icon="draconicevolution:wyvern_chest,1,0,{Energy:3933971,ShieldEntropy:0.0f,ProtectionPoints:102.4f}" iconType="stack" name="Wyvern Chestplate">
+            <content index="4" type="recipe">draconicevolution:wyvern_chest,1,0,{Energy:3933971,ShieldEntropy:0.0f,ProtectionPoints:102.4f}</content>
+            <content index="3" size="8" type="vSpacer"/>
+            <content index="2" type="textArea">§bStats:
+
+§6+80 Base Shield Capacity
++2 Armor Toughness
++8 Armor</content>
+            <content index="1" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nWyvern Chestplate</content>
+        </entry>
+    <entry branchId="draconicevolution:wyvernArmor/wyvernLeggings" category="wiki.cat.item" icon="draconicevolution:wyvern_legs,1,0,{Energy:3932111,ShieldEntropy:0.0f,ProtectionPoints:76.8f,Profile_0:{sprintBoost:0b,armorSpeedModifier:0}}" iconType="stack" name="Wyvern Leggings">
+            <content index="4" type="recipe">draconicevolution:wyvern_legs,1,0,{Energy:3932111,ShieldEntropy:0.0f,ProtectionPoints:76.8f,Profile_0:{sprintBoost:0b,armorSpeedModifier:0}}</content>
+            <content index="3" size="8" type="vSpacer"/>
+            <content index="2" type="textArea">§bStats:
+
+§6+80 Base Shield Capacity
++2 Armor Toughness
++6 Armor
+Movement Speed boost</content>
+            <content index="1" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nWyvern Leggings</content>
+        </entry>
+    <entry branchId="draconicevolution:wyvernArmor/wyvernBoots" category="wiki.cat.item" icon="draconicevolution:wyvern_boots,1,0,{Energy:3932111,ShieldEntropy:0.0f,ProtectionPoints:38.4f,Profile_0:{sprintBoost:0b,armorJumpModifier:0}}" iconType="stack" name="Wyvern Boots">
+            <content index="4" type="recipe">draconicevolution:wyvern_boots,1,0,{Energy:3932111,ShieldEntropy:0.0f,ProtectionPoints:38.4f,Profile_0:{sprintBoost:0b,armorJumpModifier:0}}</content>
+            <content index="3" size="8" type="vSpacer"/>
+            <content index="2" type="textArea">§bStats:
+
+§6+20 Base Shield Capacity
++2 Armor Toughness
++3 Armor
+Reduced fall damage
+Jump Speed boost</content>
+            <content index="1" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nWyvern Boots</content>
+        </entry>
+    </entry>
+<entry branchId="draconicevolution:draconicArmor" category="wiki.cat.item" icon="draconicevolution:draconic_chest,1,0,{Energy:16000000}" iconType="stack" name="Draconic Armor" sortingWeight="61">
+        <content imgURL="https://raw.githubusercontent.com/brandon3055/Project-Intelligence-Docs/master/Assets/Draconic%20Evolution/Armor/Draconic%20Armor.jpg" index="4" scale="40" type="image"/>
+        <content index="3" size="8" type="vSpacer"/>
+        <content index="2" type="textArea">Draconic Armor is the uptimate armor!
+This armor has all the same abilitys as the wyvern armor but upgraded aswell as a few new abilities!</content>
+        <content index="1" size="8" type="vSpacer"/>
+        <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nDraconic Armor</content>
+        <entry branchId="draconicevolution:draconicArmor/draconicHelmet" category="wiki.cat.item" icon="draconicevolution:draconic_helm,1,0,{Energy:15793200,ShieldEntropy:0.0f,ProtectionPoints:76.8f,Profile_0:{armorNVLock:0b,armorNV:0b}}" iconType="stack" name="Draconic Helmet">
+            <content alignment="LEFT" index="2" type="textArea">§bStats:
+
+§6Night Vision  §a(Configurable)
+§6Cures negative potion effects
+Bypass suffocation and drowning damage
+Removes mining slowdown under water (Aqua Affinity)
++60 Base Shield Capacity
++3 Armor Toughness
++3 Armor
+
+</content>
+            <content index="4" type="recipe">draconicevolution:draconic_helm,1,0,{Energy:15793200,ShieldEntropy:0.0f,ProtectionPoints:76.8f,Profile_0:{armorNVLock:0b,armorNV:0b}}</content>
+            <content index="3" size="8" type="vSpacer"/>
+            <content index="1" size="8" type="vSpacer"/>
+            <content alignment="CENTER" index="0" shadow="true" size="0" type="heading">Click To Edit</content>
+        </entry>
+    <entry branchId="draconicevolution:draconicArmor/draconicChestplate" category="wiki.cat.item" icon="draconicevolution:draconic_chest,1,0,{Energy:15798257,ShieldEntropy:0.0f,ProtectionPoints:204.8f,Profile_0:{sprintBoost:0b,armorInertiaCancel:0b,armorFSpeedModifier:0,armorVFSpeedModifier:0}}" iconType="stack" name="Draconic Chestplate">
+            <content index="4" type="recipe">draconicevolution:draconic_chest,1,0,{Energy:15798257,ShieldEntropy:0.0f,ProtectionPoints:204.8f,Profile_0:{sprintBoost:0b,armorInertiaCancel:0b,armorFSpeedModifier:0,armorVFSpeedModifier:0}}</content>
+            <content index="3" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="2" type="textArea">§bStats:
+
+§6Flight §a(Configurable)
+§6Removes mining slowdown while in the air
+Fire immunity
++200 Base Shield Capacity
++3 Armor Toughness
++8 Armor</content>
+            <content index="1" size="8" type="vSpacer"/>
+            <content alignment="CENTER" index="0" shadow="true" size="0" type="heading">Click To Edit</content>
+        </entry>
+    <entry branchId="draconicevolution:draconicArmor/draconicLeggings" category="wiki.cat.item" icon="draconicevolution:draconic_legs,1,0,{Energy:15798257,ShieldEntropy:0.0f,ProtectionPoints:153.6f,Profile_0:{sprintBoost:0b,armorSpeedModifier:0}}" iconType="stack" name="Draconic Leggings">
+            <content index="4" type="recipe">draconicevolution:draconic_legs,1,0,{Energy:15798257,ShieldEntropy:0.0f,ProtectionPoints:153.6f,Profile_0:{sprintBoost:0b,armorSpeedModifier:0}}</content>
+            <content index="3" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="2" type="textArea">§bStats:
+
+§6Speed Boost §a(Configurable)
+§6+180 Base Shield Capacity
++3 Armor Toughness
++6 Armor</content>
+            <content index="1" size="8" type="vSpacer"/>
+            <content alignment="CENTER" index="0" shadow="true" size="0" type="heading">Click To Edit</content>
+        </entry>
+    <entry branchId="draconicevolution:draconicArmor/draconicBoots" category="wiki.cat.item" icon="draconicevolution:draconic_boots,1,0,{Energy:15811507,ShieldEntropy:0.0f,ProtectionPoints:76.8f,Profile_0:{sprintBoost:0b,armorJumpModifier:0,armorHillStep:1b}}" iconType="stack" name="Draconic Boots">
+            <content index="4" type="recipe">draconicevolution:draconic_boots,1,0,{Energy:15811507,ShieldEntropy:0.0f,ProtectionPoints:76.8f,Profile_0:{sprintBoost:0b,armorJumpModifier:0,armorHillStep:1b}}</content>
+            <content index="3" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="2" type="textArea">§bStats:
+
+§6Fall protection
+§6Jump boost §a(Configurable)
+§6Up Hill Step §a(Configurable)
+§6+60 Base Shield Capacity
++3 Armor Toughness
++3 Armor</content>
+            <content index="1" size="8" type="vSpacer"/>
+            <content alignment="CENTER" index="0" shadow="true" size="0" type="heading">Click To Edit</content>
+        </entry>
+    </entry>
+<entry branchId="draconicevolution:deEnergyShield" iconType="off" name="Draconic Energy Shield" sortingWeight="62">
+        <content alignment="LEFT" index="4" type="splitContainer" vAlignment="TOP" width="120">
+            <content imgURL="https://raw.githubusercontent.com/brandon3055/Project-Intelligence-Docs/master/Assets/Draconic%20Evolution/Armor/Armor%20Hud.png" index="0" scale="100" splitSide="RIGHT" type="image"/>
+            <content imgURL="https://raw.githubusercontent.com/brandon3055/Project-Intelligence-Docs/master/Assets/Draconic%20Evolution/Armor/Draconic%20Shield.jpg" index="0" scale="30" splitSide="LEFT" type="image"/>
+        </content>
+        <content index="3" size="8" type="vSpacer"/>
+        <content index="1" size="8" type="vSpacer"/>
+        <content index="2" type="textArea"> Both Wyvern and Draconic armor have a shield which is capable of absorbing damage.
+ 
+Wearing any piece of Draconic or Wyvern armor will give you this shield but the more pieces you have the more damage the shield will be able to absorb and Draconic armor pieces give more absorption than Wyvern.
+
+ When your shield is active you will see its stats in a HUD that will by default be displayed to the left of your hot-bar (This can be configured in the HUD config screen which is accessed via the tool config gui)
+
+ The HUD shows three stats. Shield points (Large Red-Green bar), Entropy (Small Green bar) and the total remaining RF stored in your armor (Small Blue bar). The Numerical values for these stats will also be shown if enabled in the HUD config.
+
+ The Shield Points or Capacity is the number of damage points (Half a heart) the armor can absorb and this will drop when you take damage. As long as any piece of armor has power your shield points will regenerate at the cost of RF. The base regeneration rate is the equivalent of the entire capacity every 3 seconds.
+
+ Entropy ranges from 0 to 100%. It will increase each time you receive damage and will slowly decrease when you are not taking damage. Entropy reduces the rate at which your shield points regenerate. If your entropy reaches 100% your shield will not regenerate at all.
+
+ The shield can be upgraded using Upgrade Modifiers. Upgrading Shield Capacity will increase your shield points and upgrading Shield Recovery will increase the rate at which Entropy recovers. Note that the recovery rate is calculated by averaging the Recovery Points of all equipped armor pieces.
+
+ The shield also has a last stand ability. It is capable of blocking any fatal blow at the cost of 10 million RF. If you have less then 10MRF total stored in your armor this ability will not work at all and you will die.
+ </content>
+        <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nDraconic Energy Shield</content>
+    </entry>
+<entry branchId="draconicevolution:disenchanter" category="wiki.cat.block" icon="draconicevolution:diss_enchanter" iconType="stack" name="Disenchanter" sortingWeight="170">
+        <content index="4" type="recipe">draconicevolution:diss_enchanter</content>
+        <content index="3" size="8" type="vSpacer"/>
+        <content index="2" type="textArea">With this device you are able to transfer enchantments (one at a time) from your items to books at the cost of experience.
+
+The cost is determined by the level of each enchantment relative to the enchantments max level. Removing enchantments from an item also has the secondary effect of reducing the items repair cost making it possible to trenchant the same item as many times as you like.
+
+To use it simply place the enchanted item in the first slot, place a regular book in the centre slot and press the transfer button. The first enchantment will be stripped from the item and applied to the book.</content>
+        <content index="1" size="8" type="vSpacer"/>
+        <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nDisenchanter</content>
+    </entry>
+<entry branchId="draconicevolution:dislocation" icon="draconicevolution:dislocator" iconType="stack" name="Dislocation" sortingWeight="180">
+        <content index="2" type="textArea">Draconic Evolution has a number of items designed to assist with your teleportation needs!
+
+</content>
+        <content index="1" size="8" type="vSpacer"/>
+        <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nDislocation</content>
+        <entry branchId="draconicevolution:dislocation/dislocator" category="wiki.cat.item" icon="draconicevolution:dislocator" iconType="stack" name="Dislocator">
+            <content index="4" type="recipe">draconicevolution:dislocator</content>
+            <content index="3" size="8" type="vSpacer"/>
+            <content index="2" type="textArea">You have managed to infuse the powers of The End with your knowledge of the Draconic to create a basic teleporter, but at a cost.
+
+The energies binding them are unstable and only last for 10 uses and will take some of your life energy with each use 
+
+It can only be linked to a single location, but works across dimensions. Once used up, you must create a new one.</content>
+            <content index="1" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nDislocator</content>
+        </entry>
+    <entry branchId="draconicevolution:dislocation/advancedDislocator" category="wiki.cat.item" icon="draconicevolution:dislocator_advanced,1,0,{}" iconType="stack" name="Advanced Dislocator">
+            <content index="4" type="recipe">draconicevolution:dislocator_advanced,1,0,{}</content>
+            <content index="3" size="8" type="vSpacer"/>
+            <content index="2" type="textArea">Learning how draconic powers interact with the powers of the endermen, you have created the ultimate teleporter.
+
+You can now store up to 100 locations and use the endermen’s own pearls as fuel.
+
+This device can teleport you extreme distances - even across dimensions - at will.
+
+Shift + right click to open the GUI. Most functionality should be self explanatory.
+
+On the left is the destination list. Each destination has a lock button that prevents you from accidentally overwriting or deleting it.
+
+Right clicking a destination in the lst will teleport you to it without actually selecting the destination.
+
+On the right, starting from the top, you have information about the selected destination, an option to rename the selected destination, an option to change the selected destination to your current coordinates and an option to delete the selected destination.
+
+Under that is the fuel, an option to teleport to the selected destination, an option to add your current location as a new destination and an option to add Ender Pearls from your inventory to be used as fuel (shift + click to add a stack).
+
+You can also shift + scroll with the item in your hand to cycle through the destinations without opening the GUI or right-click to teleport to the current destination.
+
+You can also teleport players and mobs by left-clicking them - however players must be holding shift and mobs can not be teleported across dimensions.
+
+It is possible to transfer locations between dislocators. Simply place an advanced dislocator and a basic or another advanced dislocator in the first and second slots of a crafing grid to transfer a location from the dislocator in slot 1 to the dislocator in slot 2.
+
+When transfering from a basic to advanced dislocator the location will be given the name "*Copy*" When going from advanced to basic the currently selected location in the advanced dislocator will be set as the bound location in the basic dislocator.</content>
+            <content index="1" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nAdvanced Dislocator</content>
+        </entry>
+    <entry branchId="draconicevolution:dislocation/dislocatorPedestal" category="wiki.cat.block" icon="draconicevolution:dislocator_pedestal" iconType="stack" name="Dislocator Pedestal">
+            <content index="4" type="recipe">draconicevolution:dislocator_pedestal</content>
+            <content index="3" size="8" type="vSpacer"/>
+            <content index="2" type="textArea">You have figured out how to create a simple pedestal on which you can place your Basic or Advanced Charms of Dislocation.
+
+Simply right-click with a Charm in your hand to place it on the pedestal, then right-click the pedestal to teleport.
+
+The advantage of this is that the Charms won't take damage or use fuel. The disadvantage is you cannot bring them with you to your destination.
+
+To remove the charm from the pedestal simply shift + right-click with an empty hand.
+
+When it is holding a Basic Charm of Dislocation that has been renamed in an anvil or an Advanced Charm of Dislocation with a destination set either the name or destination will be displayed above the pedestal respectively.
+
+If you hold shift all names will be hidden except the one you are looking at. (Shift behavior can be reversed in the config)</content>
+            <content index="1" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nDislocator Pedestal</content>
+        </entry>
+    <entry branchId="draconicevolution:dislocation/receptacle" category="wiki.cat.block" icon="draconicevolution:dislocator_receptacle" iconType="stack" name="Dislocaror Receptacle (Portal)">
+            <content index="5" size="8" type="vSpacer"/>
+            <content imgURL="https://raw.githubusercontent.com/brandon3055/Project-Intelligence-Docs/master/Assets/Draconic%20Evolution/portal.jpg" index="6" scale="100" type="image"/>
+            <content index="4" type="recipe">draconicevolution:dislocator_receptacle</content>
+            <content index="3" size="8" type="vSpacer"/>
+            <content index="2" type="textArea">Like Obsidian, Infused Obsidian can be used to create a magical portal, but with some big differences. This portal can be any shape and any size between 1x1 and 150x150 blocks and using a dislocator to set the destination this portal can send you to any location.
+ 
+When building a portal the only restriction is it must be a 2 dimensional structure but the shape can be anything you like! As long as the internal area is a complete loop.  Then replace any block in the structure with a Dislocator Receptacle so that 1 side of the receptacle is touching the portal area (It can also be in a corner)
+
+To activate the portal simply right-click the Receptacle with a Basic or Advanced Charm of Dislocation that is bound to a location.
+
+You can also pipe Dislocators in and out of the Receptacle with hoppers or other methods of automation.
+
+It is possible to hide the Dislocator Receptacle by right clicking it with a peace of infused obsidian.
+
+The portal will also respond to a redstone signal. By default the portal will activate when a dislocator is inserted. But when powered by redstone the portal will become redstone dependent.
+
+While powered by redstone the dislocator is locked in the receptacle.</content>
+            <content index="1" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nDislocator Receptacle</content>
+        </entry>
+    <entry branchId="draconicevolution:dislocation/itemDislocator" category="wiki.cat.item" icon="draconicevolution:magnet" iconType="stack" name="Item Dislocator">
+            <content index="4" type="recipe">draconicevolution:magnet</content>
+            <content index="3" size="8" type="vSpacer"/>
+            <content index="2" type="textArea">Using the teleportation power of a dislocator you have found a way to teleport items dropped in the world directly into your inventory!
+The range of this dislocator is 8 blocks.
+
+To activate simple shift+right click.
+
+§6Quality Of Life features§r
+Holding shift will temporarily disable the dislocator.
+If another player is within 3 blocks of an item and they are closer to it than you are the dislocator will not collect it.
+When you throw an item the dislocator will wait for its pick up delay to expire before collecting it again. (Meaning you can actually throw items to other players now!)
+</content>
+            <content index="1" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nItem Dislocator</content>
+        </entry>
+    <entry branchId="draconicevolution:dislocation/itemDislocatorAdvanced" category="wiki.cat.item" icon="draconicevolution:magnet,1,1" iconType="stack" name="Awakened Item Dislocator">
+            <content index="4" type="recipe">draconicevolution:magnet,1,1</content>
+            <content index="3" size="8" type="vSpacer"/>
+            <content index="2" type="textArea">This is exactly the same as the regular Item Dislocator except it has a 32 block range!</content>
+            <content index="1" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nAwakened Item Dislocator</content>
+        </entry>
+    </entry>
+<entry branchId="draconicevolution:generator" category="wiki.cat.block" icon="draconicevolution:generator" iconType="stack" name="Generator" sortingWeight="190">
+        <content index="4" type="recipe">draconicevolution:generator</content>
+        <content index="3" size="8" type="vSpacer"/>
+        <content index="2" type="textArea">This is just a simple no thrills generator that burns most fuel sources and produces 84RF/t</content>
+        <content index="1" size="8" type="vSpacer"/>
+        <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nGenerator</content>
+    
+    </entry>
+<entry branchId="draconicevolution:energyInfuser" category="wiki.cat.block" icon="draconicevolution:energy_infuser" iconType="stack" name="Energy Infuser" sortingWeight="200">
+        <content index="4" type="recipe">draconicevolution:energy_infuser</content>
+        <content index="3" size="8" type="vSpacer"/>
+        <content index="2" type="textArea">Seeing the need for faster energy transfer you have found a way to bring the Infuser to being.
+
+This charger is capable of charging items at up to 1 million RF/t.
+But it should be noted the actual charge rate is limited by the max intake rate of the item being charged.
+This charger is ideal for charging Draconic Evolution items as they are capable of accepting energy at an extremely fast rate.</content>
+        <content index="1" size="8" type="vSpacer"/>
+        <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nEnergy Infuser</content>
+    
+    </entry>
+<entry branchId="draconicevolution:mobGrinder" category="wiki.cat.mob" icon="draconicevolution:grinder" iconType="stack" name="Mob Grinder" sortingWeight="210">
+        <content index="4" type="recipe">draconicevolution:grinder</content>
+        <content index="3" size="8" type="vSpacer"/>
+        <content index="2" type="textArea">Everyone needs effective mob farms. For the cost of a bit of  RF power, you can kill to your heart's content knowing the forces of the Draconic have your back!
+
+The grinder will kill all mobs in a 7x7 area in front of it.
+
+In order to reduce lag, experience orbs dropped by the grinder will despawn after 30 seconds if not collected. It is recommended that you use something like the OpenBlocks Vacuum Hopper to collect the experience orbs (if available).
+
+The grinder can be powered ether externally or by a capacitor placed in the capacitor slot in its GUI.</content>
+        <content index="1" size="8" type="vSpacer"/>
+        <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nMob Grinder</content>
+    
+    </entry>
+<entry branchId="draconicevolution:celestialManipulator" category="wiki.cat.block" icon="draconicevolution:celestial_manipulator" iconType="stack" name="Celestial Manipulator" sortingWeight="220">
+        <content index="4" type="recipe">draconicevolution:celestial_manipulator</content>
+        <content index="3" size="8" type="vSpacer"/>
+        <content index="2" type="textArea">The Celestial Manipulator is the ultimate time and weather control device!
+
+This device has 2 main operating modes Time and Weather, Each mode has different functions.
+
+§3Weather:
+§6Stop Rain
+Start Rain
+Start Thunderstorm
+
+§3Time:
+§6Skip to sun rise
+Skip to mid day
+Skip to sun set
+Skip to moon rise
+Skip to midnight
+Skip to moon set
+Skip 24.§r
+This function skips to the same time the next minecraft day. This is usefull because using the stop button you can stop the time acceleration at any point along the way
+
+Each of these functions should be fairly self explanatory.
+
+This device can also be configured for redstone control. In the redstone control tab you can select which time or weather function to execute on redstone signal. If set to Skip 24 the time acceleration will stop early if the redstone signal stops. 
+
+Note time acceleration dose not actually speed up game ticks it just changes the world time.
+
+This device also requires a significant amount of RF power.</content>
+        <content index="1" size="8" type="vSpacer"/>
+        <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nCelestial Manipulator</content>
+    
+    </entry>
+<entry branchId="draconicevolution:entityDetector" category="wiki.cat.block" icon="draconicevolution:entity_detector" iconType="stack" name="Entity Detector" sortingWeight="230">
+        <content index="5" size="8" type="vSpacer"/>
+        <content index="4" type="splitContainer" vAlignment="TOP">
+            <content index="0" splitSide="LEFT" type="recipe">draconicevolution:entity_detector</content>
+            <content index="0" splitSide="RIGHT" type="recipe">draconicevolution:entity_detector,1,1</content>
+        </content>
+        <content index="3" size="8" type="vSpacer"/>
+        <content index="2" type="textArea">This is an advanced entity detector will a lot of useful features.
+
+These detectors are capable of searching for specific entity types and emitting a customized redstone signal based on what they find.
+These detectors send out scanning pulses at a configurable frequency and then update their redstone output based on what they find.
+
+§bFeatures:
+§3Basic:§6
+10 Block max scanning range.
+1.5 Second max scanning rate.
+60 Second min scanning rate.
+0.25 Second max scanning rate
+Filter by Player, Hostile, Passive or any combination.
+
+§5Advanced:§6
+64 Block max range
+0.25 Second max scanning rate
+Filter by Player, Hostile, Passive, Other or any combination.
+White List / Black List§r
+
+The black list / white list in the advanced detector can be set to search for or ignore pretty much any entity in the game. And not just living entities ether!
+It can also search for specific players.
+
+§4Redstone:§r
+The redstone output has 2 modes. Fixed and Pulsed.
+In fixed mode the redstone signal will be constant between scanning pulses.
+In pulse mode it will emit a 1 tick redstone pule each scanning pulse (Assuming it finds entities)
+
+These devices can also be configured to output different signal strength depending on the number of entities detected.
+This control comes in the form of 2 controls within the gui. RS Min and RS Max.
+RS Min is the number of entities that must be detected for the device to output a signal strength of 1.
+RS Max is the number required for an output strength of 15.
+And the output strength will vary accordingly if the number of entries detected is between these 2 values.</content>
+        <content index="1" size="8" type="vSpacer"/>
+        <content alignment="LEFT" index="0" shadow="true" size="1" type="heading">§nEntity Detector &amp; Advanced Entity Detector </content>
+    </entry>
+<entry branchId="draconicevolution:potentiometer" category="wiki.cat.block" icon="draconicevolution:potentiometer" iconType="stack" name="Potentiometer" sortingWeight="240">
+        <content imgURL="https://raw.githubusercontent.com/brandon3055/Project-Intelligence-Docs/master/Assets/Draconic%20Evolution/potentiometer.jpg" index="6" scale="100" type="image"/>
+        <content index="5" size="8" type="vSpacer"/>
+        <content index="4" type="recipe">draconicevolution:potentiometer</content>
+        <content index="3" size="8" type="vSpacer"/>
+        <content index="2" type="textArea">A simple redstone emitter that is capable of emitting a variable strength redstone signal between 0 and 15.</content>
+        <content index="1" size="8" type="vSpacer"/>
+        <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nPoterntiometer</content>
+    </entry>
+<entry branchId="draconicevolution:rainSensor" category="wiki.cat.block" icon="draconicevolution:rain_sensor" iconType="stack" name="Rain Sensor" sortingWeight="250">
+        <content index="3" size="8" type="vSpacer"/>
+        <content index="4" type="recipe">draconicevolution:rain_sensor</content>
+        <content index="2" type="textArea">A device that emits a redstone signal when it rains.
+(Needs to be able to see the sky)</content>
+        <content index="1" size="8" type="vSpacer"/>
+        <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nRain Sensor</content>
     </entry>
 </mod>
