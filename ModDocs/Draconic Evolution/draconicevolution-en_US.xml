@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<mod docRevision="3" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
+<mod docRevision="4" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
     <content index="11" type="textArea">
 Also note i am still in the process of updating this documentation so a lot of it is copied from 1.7.10 and is inacurate.</content>
     <content index="10" size="8" type="vSpacer"/>
@@ -141,6 +141,10 @@ Used in high tier crafting recipes such as those for draconic tools and weapons.
             <content index="0" size="8" type="vSpacer"/>
         </entry>
     <entry branchId="draconicevolution:cores/chaotic" category="wiki.cat.item" icon="name:draconicevolution:chaotic_core,size:1,meta:0,nbt:{}" iconType="stack" name="Chaotic Core" sortingWeight="3">
+            <content index="5" type="recipe">draconicevolution:chaotic_core</content>
+            <content index="4" size="8" type="vSpacer"/>
+            <content index="3" type="textArea"/>
+            <content index="2" size="8" type="vSpacer"/>
             <content index="1" type="textArea">Tier 4 core.
 </content>
             <content index="0" size="8" type="vSpacer"/>
@@ -889,7 +893,7 @@ Movement Speed boost</content>
 +2 Armor Toughness
 +3 Armor
 Reduced fall damage
-Jump Speed boost</content>
+Jump Height boost</content>
             <content index="1" size="8" type="vSpacer"/>
             <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nWyvern Boots</content>
         </entry>
