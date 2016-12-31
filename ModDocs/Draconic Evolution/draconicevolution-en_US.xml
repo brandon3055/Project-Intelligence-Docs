@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<mod docRevision="4" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mod docRevision="5" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
     <content index="11" type="textArea">
 Also note i am still in the process of updating this documentation so a lot of it is copied from 1.7.10 and is inacurate.</content>
     <content index="10" size="8" type="vSpacer"/>
@@ -1232,5 +1232,127 @@ And the output strength will vary accordingly if the number of entries detected 
 (Needs to be able to see the sky)</content>
         <content index="1" size="8" type="vSpacer"/>
         <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nRain Sensor</content>
+    </entry>
+<entry branchId="draconicevolution:energyNet" category="wiki.cat.block" icon="draconicevolution:energy_crystal,1,2" iconType="stack" name="Energy Network" sortingWeight="155">
+        <entry branchId="draconicevolution:energyNet/crystalBinder" category="wiki.cat.item" icon="draconicevolution:crystal_binder,1,0,{draconicevolution:binder:[645,64,315,]}" iconType="stack" name="The Basics">
+            <content index="5" type="recipe">draconicevolution:crystal_binder,1,0,{draconicevolution:binder:[645,64,315,]}</content>
+            <content index="4" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="3" type="textArea">The Draconic Evolution energy network is unlike any other. Both visually and functionally it is unique.
+
+Before you get started messing with this system you will need a Crystal Binder. 
+Note that in the future you will likely be able to use tools from other mods as well but as of the time i am writing this there is only one other mod that has this support and that mod is not yet ready for 1.10 release.
+
+The DE energy network is comprised of "Energy Crystals" Each energy crystal has an internal energy buffer and crystals can be linked to one another using a Crystal Binder.
+When 2 or more crystals are linked they will attempt to balance their stored energy so they are both at the same charge level. 
+Each crystal can only support certain number of connections to other crystals. The exact number of connections is determined by the type and tier of the crystal.
+
+§6Linking§r
+In order to link a crystal to another crystal or some other valid device simply shift right click on one of the crystal with a binder that will safe that crystal to the binder.
+Then simply right click the target block to create a link. The binder will remember the block it is bound to until you bind it to another block or shift right click the air.
+
+§6GUI§r
+When you look at a crystal the DE HUD will give you information about its links and energy flow. 
+Right clicking on a crystal will display its gui in which you will see a list of all linked devices aswell as the energy flow to each one.
+Clicking on an item in the list will give you the option to identify a link using a read beam between the crystal and the target device. And also an option to break the link.
+There is also a button at the top of the list that allows you to clear all links.
+
+§6Crystal Types§r
+There are 3 types of crystals. Energy I/O, Energy Relay and Wireless Energy.
+
+§6Energy I/O:§r
+This is the crystal you will use to insert and extract energy from your crystal network.
+To use this crystal simply place it on the side of your energy source/consumer and connect it to your crystal network.
+This crystal has 3 I/O modes which you can cycle between by shift right clicking with an empty hand. Input, Output and Balance.
+Input will make the crystal accept energy from the block it is attached to and output will attempt to send energy to the attached block.
+Balance mode is not yet fully implemented but is meant for use with energy conduits from other mods this functionality needs to also be supported by the other mod and so may not work with all conduits.  
+This crystal type only supports a very limited number of connections to other crystals.
+
+§6Energy Relay:§r
+This crystal is meant to act as a hub to which you can connect other crystal and therefore it supports a lot more connections than the I/O crystal.
+This crystal can only link to other crystals and can not be connected to other blocks.
+
+§6Wireless Energy:§r
+This crystal is similar to the energy relay except that it supports fewer crystal links but can wirelessly connect to a number energy receivers. 
+This connection can only supply power to devices not receive it and the max energy flow is lower that that of the I/O Crystal.
+But the advantage of this crystal is that it supports a large number of connections meaning you could place one in the middle of your workshop and have it power most if not all of your machines.
+
+Note: See the page for each crystal type for a fill list of stats. 
+
+§6Energy Visualization:§r
+When energy is flowing between two crystals it can be visualizes by a beam of energy the intensity of which roughly indicates the rate at which energy is flowing.
+When energy is flowing from a wireless energy crystal to a block the energy flow is indicated by a stream of particles the density and speed of which roughly indicates the rate at which energy is flowing.</content>
+            <content index="2" size="8" type="vSpacer"/>
+            <content index="0" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="1" shadow="true" size="1" type="heading">§nThe Basics</content>
+        </entry>
+    <entry branchId="draconicevolution:energyNet/energyIO" category="wiki.cat.block" icon="draconicevolution:energy_crystal,1,3" iconType="stack" name="Crystal Energy I/O">
+            <content index="7" type="recipe">draconicevolution:energy_crystal,1,5,{}</content>
+            <content index="6" type="recipe">draconicevolution:energy_crystal,1,4,{}</content>
+            <content index="5" type="recipe">draconicevolution:energy_crystal,1,3,{}</content>
+            <content index="4" size="8" type="vSpacer"/>
+            <content index="3" type="textArea">Stats:
+
+§9Basic§r
+Capacity: 4 Million
+Max Links: 2 
+
+§5Wyvern§r
+Capacity: 16 Million
+Max Links: 3
+
+§6Draconic§r
+Capacity: 64 Million
+Max Links: 4</content>
+            <content index="2" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="1" shadow="true" size="1" type="heading">§nEnergy I/O Crystal</content>
+            <content index="0" size="8" type="vSpacer"/>
+        </entry>
+    <entry branchId="draconicevolution:energyNet/relay" category="wiki.cat.block" icon="draconicevolution:energy_crystal,1,1" iconType="stack" name="Crystal Relay">
+            <content index="7" type="recipe">draconicevolution:energy_crystal,1,2</content>
+            <content index="6" type="recipe">draconicevolution:energy_crystal,1,1</content>
+            <content index="5" type="recipe">draconicevolution:energy_crystal</content>
+            <content index="4" size="8" type="vSpacer"/>
+            <content index="3" type="textArea">Stats:
+
+§9Basic§r
+Capacity: 4 Million
+Max Links: 8 
+
+§5Wyvern§r
+Capacity: 16 Million
+Max Links: 16 
+
+§6Draconic§r
+Capacity: 64 Million
+Max Links: 32</content>
+            <content index="2" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="1" shadow="true" size="1" type="heading">§nCrystal Relay</content>
+            <content index="0" size="8" type="vSpacer"/>
+        </entry>
+    <entry branchId="draconicevolution:energyNet/wierless" category="wiki.cat.block" icon="draconicevolution:energy_crystal,1,8" iconType="stack" name="Crystal Wireless">
+            <content index="7" type="recipe">draconicevolution:energy_crystal,1,8</content>
+            <content index="6" type="recipe">draconicevolution:energy_crystal,1,7</content>
+            <content index="5" type="recipe">draconicevolution:energy_crystal,1,6</content>
+            <content index="4" size="8" type="vSpacer"/>
+            <content index="3" type="textArea">Stats:
+
+§9Basic§r
+Capacity: 4 Million
+Max Links: 4
+Max Wireless Links: 16
+
+§5Wyvern§r
+Capacity: 16 Million
+Max Links: 8
+Max Wireless Links: 32
+
+§6Draconic§r
+Capacity: 64 Million
+Max Links: 16
+Max Wireless Links: 64</content>
+            <content index="2" size="8" type="vSpacer"/>
+            <content alignment="LEFT" index="1" shadow="true" size="1" type="heading">§nWireless Energy Crystal</content>
+            <content index="0" size="8" type="vSpacer"/>
+        </entry>
     </entry>
 </mod>
