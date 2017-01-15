@@ -16,7 +16,7 @@ Although Draconic Evolution for 1.10.2 is now in a stable release state the upda
 -Time and weather control
 
 -Mob Farming
-
+          
 -The most overpowered energy storage of any mod currently in existence.
 
 -Extreme(ly Dangerous) power generation
@@ -77,7 +77,7 @@ Drops:
 
                 <content alignment="LEFT" index="0" splitSide="RIGHT" type="textArea">Overworld
 
-The overworld variety of Draconium ore can be found in (you guessed it) the overworld and other stone bassed dimensions.
+The overworld variety of Draconium ore can be found in (you guessed it) the overworld and other stone based dimensions.
 This is the rarest of the 3 types with an extremely low generation rate but it drops the most draconium dust when harvested
 
 Drops:
@@ -418,20 +418,20 @@ Will automatically fire when the bow is fully charged.
 Allows you to make your arrow explosive.
 Max power is equivalent to TNT
 
-§6Arrow Of Draconic Fire§r
+§6Arrow of Draconic Fire§r
 Switch to firing an arrow composed of pure Draconic energy!  
 This is essentially the same as infinity but also increases damage.
 And allows some other features.
 
 §6Shock Wave Power§r
 This creates a shock wave that deals damage similar to an explosion but more powerful and without damaging blocks.
-Only available with Arrow Of Draconic Fire
+Only available with Arrow of Draconic Fire
 
 §6Magnification§r
 Allows you to zoom in on the target to increase your accuracy
 
 §aInfo:§r
-Damage is calculated by multiplying arrow velocity with Arrow damage with some randomness involved.
+Damage is calculated by multiplying arrow velocity with arrow damage with some randomness involved.
 
 The energy required per shot is calculated by multiplying damage, velocity and explosion power.
 This means that just setting all 3 to maximum will require an enormous amount of power per shot.
@@ -540,7 +540,7 @@ Perhaps a hint of things to come...</content>
             <content index="8" size="8" type="vSpacer"/>
             <content index="7" type="textArea">So as you can see from that injectors can be placed up to 16 blocks away and as long as they are within the area shown and pointing at the core with no obstructions they will work.
 
-Something to note about fusion crafting is it does not matter how many injectors you have as long as you have enough for your recipe.
+Something to note about fusion crafting is that it does not matter how many injectors you have as long as you have enough for your recipe.
 You can also mix and match injector tiers. Meaning if you have a mix of Basic and Wyvern injectors you can still do Wyvern crafting as long as you only use the Wyvern injectors for those recipes.
 
 The last thing you will need to do is supply power to the crafting injectors.
@@ -698,6 +698,7 @@ To set one up simply place one within 16 blocks of a core and place a block of g
 If the pylon is above the center of the core the glass needs to be on the bottom. Else if the pylon is below the center of the core the glass needs to be on the top.
 
 To check that the pylon is connected to the core, simply shift-right-click the pylon block. It will create a line of particles that indicates which core it is connected to.
+
 If there is more than 1 core nearby this will make the pylon cycle between the cores in range.
 
 To toggle the pylon between input and output mode simply right click the sphere.</content>
@@ -731,6 +732,7 @@ Note that the stabilizers can be placed ether on the horizontal or vertical plan
             <content index="4" type="textArea">Stabilizers are an essential part of the core. They well... stabilize it...
 If you're building a tier 1-4 core this is as simple as placing 4 stabilizers around the core within 16 blocks.
 However if you're building a higher tier core you will need advanced stabilizers.
+
 These are simply 9 regular stabilizers in the configuration shown below</content>
             <content index="3" size="8" type="vSpacer"/>
             <content alignment="CENTER" index="2" shadow="true" size="1" type="heading">Stabilizers</content>
@@ -828,6 +830,7 @@ Each upgrade tier requires different ingredients and its respective tier fusion 
 To find the ingredients required for an upgrade key, simply hover over the key in your inventory and hold shift.
 You will see a list of all ingredients required. It will cycle through the tiers every 5 seconds.
 To pause the display, simply hold CTRL as well. Try it on some of the keys below. </content>
+
         <content index="2" size="8" type="vSpacer"/>
         <content alignment="CENTER" index="1" shadow="true" size="2" type="heading">§nFusion Upgrades</content>
         <content index="0" size="8" type="vSpacer"/>
@@ -1147,7 +1150,6 @@ The grinder can be powered either externally or by a capacitor placed in the cap
         <content index="2" type="textArea">The Celestial Manipulator is the ultimate time and weather control device!
 
 This device has 2 main operating modes: Time and Weather, each mode has different functions.
-
 §3Weather:
 §6Stop Rain
 Start Rain
@@ -1155,9 +1157,10 @@ Start Thunderstorm
 
 §3Time:
 §6Skip to sunrise
-Skip to midday
+Skip to mid-day
 Skip to sunset
-Skip to moonrise
+Skip to moon rise
+
 Skip to midnight
 Skip to moonset
 Skip 24.§r
