@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<mod docRevision="5" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
+<mod docRevision="6" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
     <content index="11" type="textArea">
 Also note i am still in the process of updating this documentation so a lot of it is copied from 1.7.10 and is inacurate.</content>
     <content index="10" size="8" type="vSpacer"/>
