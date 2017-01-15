@@ -904,7 +904,7 @@ Jump Height boost</content>
 <entry branchId="draconicevolution:draconicArmor" category="wiki.cat.item" icon="draconicevolution:draconic_chest,1,0,{Energy:16000000}" iconType="stack" name="Draconic Armor" sortingWeight="61">
         <content imgURL="https://raw.githubusercontent.com/brandon3055/Project-Intelligence-Docs/master/Assets/Draconic%20Evolution/Armor/Draconic%20Armor.jpg" index="4" scale="40" type="image"/>
         <content index="3" size="8" type="vSpacer"/>
-        <content index="2" type="textArea">Draconic Armor is the uptimate armor!
+        <content index="2" type="textArea">Draconic Armor is the ultimate armor!
 This armor has all the same abilities as the wyvern armor but upgraded as well as a few new abilities!</content>
         <content index="1" size="8" type="vSpacer"/>
         <content alignment="LEFT" index="0" shadow="true" size="2" type="heading">§nDraconic Armor</content>
