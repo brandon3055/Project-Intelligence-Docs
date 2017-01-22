@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<mod docRevision="6" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
-    <content index="11" type="textArea">
+<mod docRevision="7" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
+    <content index="7" size="4" type="vSpacer"/>
+    <content alignment="CENTER" colour="ff00" hoverColour="0000FF" index="8" link="https://www.youtube.com/watch?v=2RRddsks9TA" shadow="true" size="0" targetLocation="web" type="link">§nClick here to view part 2 on youtube.</content>
+    <content alignment="CENTER" colour="ff00" hoverColour="0000FF" index="6" link="https://www.youtube.com/watch?v=iBcRT4C6RkQ&amp;t=406s" shadow="true" size="0" targetLocation="web" type="link">§nClick here to view part 1 on youtube.</content>
+    <content alignment="CENTER" colour="ffff" index="5" shadow="true" size="0" type="heading">Spotlights by Direwolf20!</content>
+    <content index="9" size="8" type="vSpacer"/>
+    <content index="16" type="textArea">
 Also note i am still in the process of updating this documentation so a lot of it is copied from 1.7.10 and is inacurate.</content>
-    <content index="10" size="8" type="vSpacer"/>
-    <content index="9" type="textArea">
+    <content index="15" size="8" type="vSpacer"/>
+    <content index="14" type="textArea">
 Although Draconic Evolution for 1.10.2 is now in a stable release state the update is still far from finished. So if you find that something which was available in 1.7 is no longer available in 1.10 it probably has not been updated yet. I plan to update almost everything that was in 1.7 so don't be concerned if some of your favorite items/blocks don't exist yet.</content>
-    <content alignment="CENTER" index="8" shadow="true" size="1" type="heading">§nImportant!</content>
-    <content index="7" size="8" type="vSpacer"/>
-    <content alignment="LEFT" index="6" type="splitContainer" vAlignment="BOTTOM" width="10">
+    <content alignment="CENTER" index="13" shadow="true" size="1" type="heading">§nImportant!</content>
+    <content index="12" size="8" type="vSpacer"/>
+    <content alignment="LEFT" index="11" type="splitContainer" vAlignment="BOTTOM" width="10">
         <content alignment="LEFT" index="0" splitSide="RIGHT" type="textArea">§1§a
 -Powerful tools and armor
 
@@ -25,7 +30,7 @@ Although Draconic Evolution for 1.10.2 is now in a stable release state the upda
 
 -One of the most powerful bosses in modded minecraft</content>
     </content>
-    <content index="5" type="textArea">Draconic Evolution is a mod that focuses mainly on extreamely powerful end game tools, weapons an machines.
+    <content index="10" type="textArea">Draconic Evolution is a mod that focuses mainly on extreamely powerful end game tools, weapons an machines.
 
 While at the same time maintaining balance (Although this can be tricky) with equally expensive recipes and very difficult bosses which you need to go though in order to get these items.
 
