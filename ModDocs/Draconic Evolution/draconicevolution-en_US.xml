@@ -1,5 +1,75 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<mod docRevision="7" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
+<mod docRevision="8" lang="en_US" modName="Draconic Evolution" modid="draconicevolution">
+    <content index="30" type="textArea">§6Robert W
+§r(Since 08/06/2015)§r
+
+§6pxoxd
+§r(Since 10/12/2015)§r
+
+§6antric83
+§r(Since 14/04/2016)§r
+
+§6SassyAmber
+§r(Since 25/05/2016)§r
+
+§6GreatOrator
+§r(Since 02/06/2016)§r
+
+§6Drekryan
+§r(Since 24/06/2016)§r
+
+§6Jordan
+§r(Since 20/07/2016)§r
+
+§6ModAPI
+§r(Since 29/11/2016)§r
+
+§6Mikepet
+§r(Since 09/12/2016)§r
+
+§6Nick_J_M
+§r(Since 19/01/2017)§r</content>
+    <content alignment="CENTER" colour="ff00" hoverColour="0000FF" index="33" link="https://www.patreon.com/brandon3055" shadow="true" size="0" targetLocation="web" type="link">https://www.patreon.com/brandon3055</content>
+    <content index="32" type="textArea">If you would like to become a patreon you can do so by following the link bellow.</content>
+    <content index="31" size="8" type="vSpacer"/>
+    
+    <content index="27" type="textArea">§aThe following people are supporting me on patreon!
+The support these people give really helps
+make what i do possible. 
+For this i owe them all a debt of gratitude.</content>
+    <content index="28" size="8" type="vSpacer"/>
+    <content alignment="LEFT" index="24" type="splitContainer" vAlignment="TOP" width="20">
+        <content alignment="LEFT" index="0" splitSide="RIGHT" type="textArea">§6Covers1624§b
+Covers is the biggest DE contributor as far as DE 1.10+ is concerned.
+His work with CCL has been an enormous help is what makes a 
+lot of the fancy rendering in 1.10 possible!
+He has also been a big help with some of the DE code. 
+He is all round great guy and a very good friend! 
+    
+§6GreatOrator§b
+GreatOrator has always been and will always be one of my best friends.
+He was the first person i met in the modded community when we both
+played on the same modded 1.4.7 server a few years back.
+After playing with mods for a while we both decided we wanted to take it a step further.
+GreatOrator started working on the mod pack that is now known as Tolkiencraft
+and i decided to start messing with java and working on an add-on for Tolkiencraft
+that would one day be known as Draconic Evolution.
+
+If you told us back then how far we would go we never would have believed it
+tbh im still having a hard time believing it.
+I think it was he amazing success of the Tolkiencraft pack is what really helped
+DE become as popular as it is today because as people learned about TC they also
+learned about DE.
+
+Of course thats not all he did. GratOrator was also responsible for most of
+the textures back then and a significant amount of the content still in DE to today
+came from his ideas.</content>
+    </content>
+    <content index="21" size="8" type="vSpacer"/>
+    <content alignment="CENTER" colour="ffff" index="26" shadow="true" size="0" type="heading">§nPatreons:</content>
+    <content index="25" size="8" type="vSpacer"/>
+    <content alignment="CENTER" colour="ffff" index="18" shadow="true" size="1" type="heading">§nContributors</content>
+    <content index="17" size="8" type="vSpacer"/>
     <content index="7" size="4" type="vSpacer"/>
     <content alignment="CENTER" colour="ff00" hoverColour="0000FF" index="8" link="https://www.youtube.com/watch?v=2RRddsks9TA" shadow="true" size="0" targetLocation="web" type="link">§nClick here to view part 2 on youtube.</content>
     <content alignment="CENTER" colour="ff00" hoverColour="0000FF" index="6" link="https://www.youtube.com/watch?v=iBcRT4C6RkQ&amp;t=406s" shadow="true" size="0" targetLocation="web" type="link">§nClick here to view part 1 on youtube.</content>
@@ -639,7 +709,8 @@ Ok... So remember when I said this core is stupidly powerful?
 Well, it has a price tag to match...
 1x Energy Core
 36x Energy Core Stabilizer
-1,164x Awakened Draconium Block</content>
+786x Draconium Block
+378x Awakened Draconium Block</content>
             <content alignment="LEFT" index="0" splitSide="LEFT" type="textArea">Tier 1:
 1x Energy Core
 4x Energy Core Stabilizer
