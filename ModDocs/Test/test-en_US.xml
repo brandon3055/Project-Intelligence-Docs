@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mod docRevision="0" lang="en_US" modName="Test" modid="test">
+    <entry branchId="test:test" category="wiki.cat.item" icon="minecraft:diamond_sword,1,0,{ench:[0:{lvl:5s,id:21s},1:{lvl:5s,id:20s},2:{lvl:5s,id:19s}]}" iconType="stack" name="test"/>
+</mod>
