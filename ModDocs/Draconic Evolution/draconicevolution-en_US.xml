@@ -809,7 +809,7 @@ The following is a list of ingredients required for each tier.
             <content index="4" size="8" type="vSpacer"/>
             <content index="3" type="textArea">Energy Pylons are used to insert and extract energy from a core.
 
-To set one up simply place one within 16 blocks of a core and place a block of glass ether above or below it depending on its Y position relative to the core.
+To set one up simply place one within 16 blocks of a core and place a block of glass either above or below it depending on its Y position relative to the core.
 If the pylon is above the center of the core the glass needs to be on the bottom. Else if the pylon is below the center of the core the glass needs to be on the top.
 
 To check that the pylon is connected to the core, simply shift-right-click the pylon block. It will create a line of particles that indicates which core it is connected to.
