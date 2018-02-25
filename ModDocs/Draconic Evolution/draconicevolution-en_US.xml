@@ -1492,7 +1492,8 @@ If you wish to upgrade (or downgrade) a spawner you can simply right-click the s
 The new core will be applied and the previous core will be removed and dropped as an item.
 
 Each spawner tier has certain improvements over the last.
-The spawn range for all spawners is 4 blocks (the same as the vanilla spawner)
+The spawn radius for all spawners is 4 blocks (the same as a vanilla spawner).
+Applying a redstone signal will disable the spawner.
 
 §1§nBasic§r
 The basic tier is very similar to the vanilla spawner.
