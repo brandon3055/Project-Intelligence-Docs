@@ -1,4 +1,8 @@
 # Project-Intelligence-Docs
+
+# This repository is now archived!
+The new home for Project Intelligence documentation is https://github.com/brandon3055/PI-Docs/
+
 Project Intelligence. DOCUMENT ALL THE THINGS!!!
 
 Project Intelligence AKA "Project Intel" or "PI" is an ingame documentation mod i am currently building as a part of Draconic Evolution.
