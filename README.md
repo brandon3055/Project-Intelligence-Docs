@@ -1,7 +1,10 @@
 # Project-Intelligence-Docs
 
 # This repository is now archived!
-The new home for Project Intelligence documentation is https://github.com/brandon3055/PI-Docs/
+### The new home for Project Intelligence documentation is https://github.com/brandon3055/PI-Docs/
+
+
+---
 
 Project Intelligence. DOCUMENT ALL THE THINGS!!!
 
